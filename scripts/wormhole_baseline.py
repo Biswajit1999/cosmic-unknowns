@@ -35,6 +35,7 @@ def main():
     figures.mkdir(exist_ok=True)
     results.mkdir(exist_ok=True)
     plt.rcParams.update({"font.family": "DejaVu Sans", "font.size": 11,
+                         "svg.hashsalt": "cosmic-unknowns-baseline-v1",
                          "axes.spines.top": False, "axes.spines.right": False})
     fig = plt.figure(figsize=(13, 6.8), facecolor="#faf9f6")
     left = fig.add_subplot(121, projection="3d", facecolor="#faf9f6")
@@ -72,7 +73,11 @@ def main():
              ha="center", fontsize=11, color="#555555")
     fig.subplots_adjust(left=0.04, right=0.97, top=0.79, bottom=0.21, wspace=0.25)
     for ext in ("png", "svg"):
-        fig.savefig(figures / f"wormhole-baseline.{ext}", dpi=180, facecolor=fig.get_facecolor())
+        output = figures / f"wormhole-baseline.{ext}"
+        options = {"metadata": {"Date": None}} if ext == "svg" else {}
+        fig.savefig(output, dpi=180, facecolor=fig.get_facecolor(), **options)
+        if ext == "svg":
+            output.write_text("\n".join(line.rstrip() for line in output.read_text(encoding="utf-8").splitlines())+"\n", encoding="utf-8")
     plt.close(fig)
     rows = []
     for r0 in (1e-3, 1, 1e3, 1e6):

@@ -1,0 +1,55 @@
+{
+  "classification": "Known static geometry reproduced; not new physics",
+  "model": "Phi=0, b(r)=r0^2/r; no matter action specified",
+  "constants": {
+    "c_m_s": 299792458.0,
+    "G_m3_kg_s2": 6.6743e-11
+  },
+  "assumptions": [
+    "Einstein equations, Lambda=0",
+    "static spherical symmetry",
+    "prescribed stress-energy, not a quantum-state construction"
+  ],
+  "not_computed": [
+    "stability",
+    "formation",
+    "quantum energy inequalities",
+    "signal transmission",
+    "observational inference"
+  ],
+  "environment": {
+    "python": "3.14.8",
+    "numpy": "2.5.4",
+    "matplotlib": "3.11.2"
+  },
+  "scales": [
+    {
+      "throat_radius_m": 0.001,
+      "energy_density_J_m3": -4.815453886722422e+48,
+      "radial_pressure_Pa": -4.815453886722422e+48,
+      "tangential_pressure_Pa": 4.815453886722422e+48,
+      "radial_null_energy_J_m3": -9.630907773444844e+48
+    },
+    {
+      "throat_radius_m": 1,
+      "energy_density_J_m3": -4.815453886722423e+42,
+      "radial_pressure_Pa": -4.815453886722423e+42,
+      "tangential_pressure_Pa": 4.815453886722423e+42,
+      "radial_null_energy_J_m3": -9.630907773444846e+42
+    },
+    {
+      "throat_radius_m": 1000.0,
+      "energy_density_J_m3": -4.815453886722423e+36,
+      "radial_pressure_Pa": -4.815453886722423e+36,
+      "tangential_pressure_Pa": 4.815453886722423e+36,
+      "radial_null_energy_J_m3": -9.630907773444846e+36
+    },
+    {
+      "throat_radius_m": 1000000.0,
+      "energy_density_J_m3": -4.815453886722423e+30,
+      "radial_pressure_Pa": -4.815453886722423e+30,
+      "tangential_pressure_Pa": 4.815453886722423e+30,
+      "radial_null_energy_J_m3": -9.630907773444846e+30
+    }
+  ]
+}

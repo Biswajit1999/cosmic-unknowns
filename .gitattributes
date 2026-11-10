@@ -10,3 +10,15 @@ figures/study-002/*.png -text
 results/study-003/*.csv -text
 results/study-003/*.json -text
 figures/study-003/*.png -text
+results/study-004/*.csv -text
+results/study-004/*.json -text
+figures/study-004/*.svg -text
+figures/study-004/*.png -text
+results/study-005/*.csv -text
+results/study-005/*.json -text
+results/study-005/*.gz -text
+figures/study-005/*.svg -text
+figures/study-005/*.png -text
+output/pdf/*.json -text
+output/pdf/*.pdf binary
+reports/007-calibration-limited-identification.md text eol=lf

@@ -1,0 +1,9 @@
+{
+  "author": "Biswajit Jana",
+  "experiments": 150000,
+  "channel_counts": 3600000,
+  "unresolved_optimizer_warnings": 0,
+  "boundary_fits": 10112,
+  "max_deviance_improvement": 0.002359268425646377,
+  "first_tested_broad_budget_lower_Wilson_at_least_90pct": 3162
+}

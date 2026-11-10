@@ -135,4 +135,4 @@ The other foundational questions remain in the [mathematical research agenda](00
 
 ## Authorship and provenance
 
-I am the sole listed author of this working report. Prior results are credited through citations and the literature audit. I used computational and AI-assisted tools in preparing this draft, its code and figures; these tools are not coauthors. Specialist review and my final submission-level verification remain pending. The repository is private and this report has not been submitted for publication.
+I am the sole listed author of this working report. Prior results are credited through citations and the literature audit. I used computational and AI-assisted tools in preparing this draft, its code and figures; these tools are not coauthors. Specialist review and my final submission-level verification remain pending. The repository became public on 10 November 2026; this report has not been submitted to a journal.

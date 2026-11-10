@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "Please cite this research software and working report using the metadata below."
 title: "Cosmic Unknowns: scalar transmission and stability on a prescribed wormhole"
 type: software
-version: 0.3.0
+version: 0.4.0
 date-released: 2026-11-10
 authors:
   - family-names: Jana

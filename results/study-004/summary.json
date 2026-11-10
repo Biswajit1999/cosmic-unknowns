@@ -1,0 +1,129 @@
+{
+  "author": "Biswajit Jana",
+  "date": "2026-11-10",
+  "data_type": "analytical and synthetic-model analysis",
+  "source_spectra_sha256": "33271f923f59e12cec496f0363302c82f90058b8d8cc9c44ce77d649fe8a4937",
+  "source_trials_sha256": "4681c6ea3ea4ce83f4d3206241767a4bf2eecee73c2f830da9569a1a9b96c783",
+  "model": "p_recorded=(1-fn_i)q_i+fp_i(1-q_i), independent errors in [0,delta] per channel",
+  "designs": {
+    "low_band": {
+      "theta_logC_logb": [
+        3.6266414176584565,
+        1.3638931336204434
+      ],
+      "achievable_error_budget": 0.00012239866125963612,
+      "classification": "constructive feasible witness; numerical minimum not certified",
+      "nominal_projection_error_budget": 0.012898112862368404,
+      "max_recorded_probability_difference": 0.0,
+      "refined_probability_max_change": 4.4270523011369356e-11,
+      "refined_witness_error_budget": 0.00012249507966629185,
+      "all_SLSQP_attempts": [
+        {
+          "theta": [
+            3.6266414176584565,
+            1.3638931336204434
+          ],
+          "delta": 0.00012239866125963612,
+          "success": true,
+          "constraint_min": -5.179884299266746e-15
+        },
+        {
+          "theta": [
+            3.6266414176606134,
+            1.3638931336215243
+          ],
+          "delta": 0.00012239866167559145,
+          "success": true,
+          "constraint_min": -8.118505867571457e-15
+        },
+        {
+          "theta": [
+            3.6266414176585218,
+            1.3638931336204725
+          ],
+          "delta": 0.00012239866125963612,
+          "success": true,
+          "constraint_min": 4.662069341687669e-18
+        },
+        {
+          "theta": [
+            3.626641417658439,
+            1.3638931336204452
+          ],
+          "delta": 0.0001223986612763468,
+          "success": true,
+          "constraint_min": -2.3592239273284576e-16
+        }
+      ],
+      "independent_differential_evolution": {
+        "theta": [
+          3.6266414175790875,
+          1.3638931335795363
+        ],
+        "delta": 0.00012239866139696204,
+        "success": true
+      }
+    },
+    "broad_band": {
+      "theta_logC_logb": [
+        2.9594088385213637,
+        1.0509977247198043
+      ],
+      "achievable_error_budget": 0.03094299862429062,
+      "classification": "constructive feasible witness; numerical minimum not certified",
+      "nominal_projection_error_budget": 0.22287861825095298,
+      "max_recorded_probability_difference": 0.0,
+      "refined_probability_max_change": 1.9690737929067836e-10,
+      "refined_witness_error_budget": 0.030943030684044713,
+      "all_SLSQP_attempts": [
+        {
+          "theta": [
+            2.9594088385213637,
+            1.0509977247198043
+          ],
+          "delta": 0.03094299862429062,
+          "success": true,
+          "constraint_min": -5.551115123125783e-17
+        },
+        {
+          "theta": [
+            2.9594088385215773,
+            1.050997724719914
+          ],
+          "delta": 0.030942998624345158,
+          "success": true,
+          "constraint_min": -3.26405569239796e-14
+        },
+        {
+          "theta": [
+            2.959408838521363,
+            1.0509977247198048
+          ],
+          "delta": 0.030942998624292038,
+          "success": true,
+          "constraint_min": -1.1102230246251565e-16
+        },
+        {
+          "theta": [
+            2.9594088385213664,
+            1.0509977247198055
+          ],
+          "delta": 0.030942998624290907,
+          "success": true,
+          "constraint_min": -3.3306690738754696e-16
+        }
+      ],
+      "independent_differential_evolution": {
+        "theta": [
+          2.9594088385420756,
+          1.050997724721893
+        ],
+        "delta": 0.03094299862797476,
+        "success": true
+      }
+    }
+  },
+  "profile_non_success": 0,
+  "interpretation": "Existence of a probability-matching comparator in an explicitly enlarged nuisance family; not physical wormhole existence.",
+  "novelty": "Application and reproducible numerical witnesses are candidate contributions; no first-ever claim."
+}

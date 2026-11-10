@@ -1,0 +1,12 @@
+{
+  "results/study-004/histogram-bins.csv": "bf0ee596f6639c064e9307bf61d4dc2d9591cc08fb8f73f3c244c5662c60aed9",
+  "results/study-004/kl-profiles.csv": "e1a35dd0155972f5b6d31253460351f17eb266d018f8cc8ef98cae2ddafc4859",
+  "results/study-004/summary.json": "3ef71fff02c1d34196b047f719eedea854217db43628b0ec2a88cb4b92872f7c",
+  "results/study-004/witnesses.csv": "1a9dc9156ef294b90b3fc612c84c3107ab09f411ca2bac228310e58dbc6c4b3b",
+  "figures/study-004/01-deviance-histograms.png": "e5a94fce71c4d6f79ffa48422ef106e1cbf0c877bdc0c6118615b13d9d6e4295",
+  "figures/study-004/01-deviance-histograms.svg": "9c8a2854971b6ebb2c873a01f0eb0b65201e2eda56ef8c8b034a2e1e241fc90f",
+  "figures/study-004/02-calibration-profile.png": "2b30f6d20100fb8c70b1126a7bb1492dac0b9e51590fe126d1090432538f78ef",
+  "figures/study-004/02-calibration-profile.svg": "57ddcbf1f390a1e35ead9fb654effd6a6adec699bc5a6bdfdda276344d209df2",
+  "figures/study-004/03-equivalent-probabilities.png": "4f99ef548d00fffaa441336d75380bdcfcd823de5cc238f5597d4a8f4cb0506d",
+  "figures/study-004/03-equivalent-probabilities.svg": "e8f05f1664e758f5c483a04b0436659adc71f200c3c3e4f853facb3c936b1f1e"
+}

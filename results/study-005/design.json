@@ -1,0 +1,57 @@
+{
+  "author": "Biswajit Jana",
+  "date": "2026-11-10",
+  "N_values": [
+    100,
+    133,
+    178,
+    237,
+    316,
+    422,
+    562,
+    750,
+    1000,
+    1334,
+    1778,
+    2371,
+    3162,
+    4217,
+    5623,
+    7499,
+    10000,
+    13335,
+    17783,
+    23714,
+    31623,
+    42170,
+    56234,
+    74989,
+    100000
+  ],
+  "channels": 24,
+  "calibration_repetitions": 1000,
+  "null_check_repetitions": 1000,
+  "power_repetitions": 1000,
+  "designs": [
+    "low_band",
+    "broad_band"
+  ],
+  "base_seed": 20261120,
+  "seed_rule": "base + design_index*1000 + budget_index; bootstrap uses case_seed+1000000",
+  "independent_cases": true,
+  "workers": 4,
+  "classification": "synthetic ideal-detector experiment",
+  "source_spectra_sha256": "33271f923f59e12cec496f0363302c82f90058b8d8cc9c44ce77d649fe8a4937",
+  "fit_bounds": [
+    [
+      -16.0,
+      25.0
+    ],
+    [
+      -2.3025850929940455,
+      3.4011973816621555
+    ]
+  ],
+  "threshold_calibration": "pointwise at noiseless comparator projection",
+  "interval_scope": "pointwise Wilson over evaluations, conditional on estimated threshold; bootstrap sensitivity separate"
+}

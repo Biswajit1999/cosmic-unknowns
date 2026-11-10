@@ -1,0 +1,10 @@
+{
+  "author": "Biswajit Jana",
+  "source": "reports/007-calibration-limited-identification.md",
+  "source_sha256": "7656cce4ddf3f221f8c61adbce8905ec53b7a68f64a96bb2546c35f2d6d07e0c",
+  "pdf_sha256": "5cf6bad5cafcb1da6a30c3623909c71a85d8535f1d6fdd2b78e0b0b1928526bc",
+  "pages": 12,
+  "equations": 11,
+  "figures": 5,
+  "build": "render_report_equations.py then build_scientific_report.py; numerical environment plus PDF runtime"
+}

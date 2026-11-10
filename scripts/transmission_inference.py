@@ -19,7 +19,11 @@ def wilson(successes, trials, confidence=0.95):
     d = 1+z*z/trials
     center = (p+z*z/(2*trials))/d
     half = z*np.sqrt(p*(1-p)/trials+z*z/(4*trials**2))/d
-    return np.maximum(0, center-half), np.minimum(1, center+half)
+    # Enforce exact endpoints: cancellation can otherwise leave a tiny positive
+    # lower limit at zero successes and produce negative plotting error lengths.
+    lower = np.where(s == 0, 0., np.maximum(0, center-half))
+    upper = np.where(s == trials, 1., np.minimum(1, center+half))
+    return lower, upper
 
 
 def pt_logit(k, theta):

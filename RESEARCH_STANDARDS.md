@@ -12,4 +12,4 @@ I retain scripts, parameters, convergence checks, data provenance and figure-gen
 
 I use computational and AI-assisted tools for drafting, literature exploration, algebra, code and criticism. They are not coauthors. The manuscript remains a working draft pending independent human and specialist verification; I do not present automated checks as peer review.
 
-I credit original scientific results and respect source licenses. I do not redistribute paper figures or full text without checking permission. The repository remains private, with no publication or external submission implied by a push.
+I credit original scientific results and respect source licenses. I do not redistribute paper figures or full text without checking permission. The repository became public on 10 November 2026 at my request. Public availability is not peer review or external journal submission.

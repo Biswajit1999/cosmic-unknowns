@@ -1,0 +1,22 @@
+{
+  "results/study-001/additional-audit.json": "8f67656a2258a0b07d63fdd75ba9f7adde438eabfe0a28aa386172d4c19c7bb1",
+  "results/study-001/critical-scaling.csv": "6488c6fd04f16ded8ff954e9e1e21120a1a284e3b893a459a13b744c4619a877",
+  "results/study-001/domain-convergence.csv": "a1237255f6e0e88c48f5258f7b60f77cb5f58bf3adc7b8e1c644f7d62f559e2a",
+  "results/study-001/finite-bandwidth.csv": "7de1ecc1f6c98c117e4e994e421f488a1fd81c2e16fe5170a230a0d14bb50ddc",
+  "results/study-001/response-equivalence.csv": "c732b8428df52e856dfb4b7302e954908a65c7bf3290a11c2114a7a875a0108d",
+  "results/study-001/selected-values.csv": "70a946bfc71daf5a662e264649c38b605364664592cec715df8bf5c36a7ecae7",
+  "results/study-001/spectra.csv": "47ef935e3abbedfe0fd3b844006b9298f83cec6a6413b2fcc3d09d2bf5ed19c7",
+  "results/study-001/stability.csv": "c2ca312db0e74f278f29c4d7a95be929bdab08141c2110c2b0553bcc8e77e63a",
+  "results/study-001/summary.json": "54bfd9c8248db76be4611df75a9ad36f741401772c65eda386b182047a818bcf",
+  "results/study-001/tolerance-convergence.csv": "5a3eda16a4eaa5e516ccf5c69c354d8b59a93a57e04ec844863bce221422dd89",
+  "figures/study-001/01-transmission.png": "de9681da5d130453e9f7b4ee4c3b3aeccddf1eb0f1890a98c5b605350e7e7b11",
+  "figures/study-001/01-transmission.svg": "c76bf3e44f2d7759e5cb6ccd763026abf7b2456166dd42ff1dc466f93a022dc4",
+  "figures/study-001/02-validation.png": "bae517b52f9042b41876533a9c4016f85c479ff769bbc1efec46b75eec54dc28",
+  "figures/study-001/02-validation.svg": "2334c1b36373d30d0e632a534f979bf63b97f5df044f4319f90d71d123075254",
+  "figures/study-001/03-critical-scaling.png": "8ad5b0e63cb886168932839e3fd18dc367a3cb6a2a7e971544b1fc9211e1f37a",
+  "figures/study-001/03-critical-scaling.svg": "b5393676700d7f9f7a0b80241adf86522b243b1fcc19f4a33fcb5b04a40bbf63",
+  "figures/study-001/04-stability.png": "25866b37875e06ef18092ac545481eecd547b3ae26bf1ee4ea9d235c5f88fe91",
+  "figures/study-001/04-stability.svg": "b4405144f25d8c4723df4394eeef54f2d2dfd640c6ca6b3db9c627721e0cd074",
+  "figures/study-001/05-identifiability.png": "b202706b7750fa634a7095dbd30bfe0361f52192e698d2a33e5f721a4b53d5a8",
+  "figures/study-001/05-identifiability.svg": "3348cae5b9095db459fd102cc6a704192cac9941167d8cd8a7404d22b1a553eb"
+}

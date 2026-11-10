@@ -1,5 +1,8 @@
 # Reading list and evidence log
 
+**Author: Biswajit Jana**
+Historical seed list; see the [10 November audit](literature-audit-2026-11-10.md) for the completed study's sources.
+
 Screened 8 November 2026. “Abstract” means title, authors, and abstract were inspected; it does not mean the derivation was verified. This is a selective seed bibliography, not a systematic literature review. Older foundational references must be followed through their subsequent literature.
 
 | ID | Source | Use and inspection depth |
@@ -22,7 +25,7 @@ Screened 8 November 2026. “Abstract” means title, authors, and abstract were
 
 W1 → W4 → W3 → W6. Read W2 for the holographic connection, then Q1 and Q2 if quantum information becomes the chosen direction.
 
-For every full-paper reading, record: precise claim; field content; spacetime and boundary conditions; approximation; matter source; energy bound; stability treatment; observable; failure modes; relevant critiques; and which calculation we can independently reproduce.
+For every full-paper reading, I record: precise claim; field content; spacetime and boundary conditions; approximation; matter source; energy bound; stability treatment; observable; failure modes; relevant critiques; and which calculation I can independently reproduce.
 
 ## Search scope
 

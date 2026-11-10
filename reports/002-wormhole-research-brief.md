@@ -1,12 +1,15 @@
 # Project W01: physical viability and signals of theoretical wormholes
 
+**Author: Biswajit Jana**
+Historical proposal from 8 November 2026. For completed work as of 10 November, see the [first research report](003-transmission-stability-study.md).
+
 **Status:** proposed research direction. Novelty unverified. No detection claim. No stability calculation or quantum matter construction has yet been performed.
 
 ## Central question
 
 For a specified wormhole model, can its supporting matter, persistence, and propagation of signals be mutually consistent within the approximation used? If so, which predicted signatures could be distinguished from alternatives?
 
-This is broader than our first calculation. We will narrow it to a single model and one controlled change after reproducing its published result.
+This is broader than my first calculation. I will narrow it to a single model and one controlled change after reproducing its published result.
 
 ## Literature anchors
 

@@ -1,4 +1,7 @@
-"""Reproduce a known static wormhole geometry; no physical existence claim."""
+"""Reproduce a known static wormhole geometry; no physical existence claim.
+
+Author: Biswajit Jana
+"""
 from pathlib import Path
 import csv
 import json

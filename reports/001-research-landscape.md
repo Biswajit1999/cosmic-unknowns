@@ -1,5 +1,7 @@
 # Unanswered questions beyond the dark universe
 
+**Author: Biswajit Jana**
+
 Prepared 8 November 2026. This is a selective literature scouting report, not an exhaustive review or a claim to have identified an untouched field.
 
 ## What counts as a Millennium question?
@@ -28,7 +30,7 @@ Sources and reading depth are in the [reading list](../references/reading-list.m
 
 **Wormhole viability and signal transmission** fits the expressed preference for a speculative object with no established astronomical detection. It offers both foundational mathematics and calculable questions. The objective is not to assume a wormhole exists, but to determine exactly what a proposed model allows and what would invalidate it.
 
-A useful distinction has already emerged from the literature. “Traversable” can mean that an appropriate path exists, while the probability of transmitting a particular wave can still be very small. [A 2026 study](https://arxiv.org/abs/2606.12528) examines this in a magnetic wormhole model and finds strongly probe-dependent behavior. This motivates a study of assumptions and robustness, not a claim that the distinction is our discovery.
+A useful distinction has already emerged from the literature. “Traversable” can mean that an appropriate path exists, while the probability of transmitting a particular wave can still be very small. [A 2026 study](https://arxiv.org/abs/2606.12528) examines this in a magnetic wormhole model and finds strongly probe-dependent behavior. This motivates my study of assumptions and robustness, not a claim that the distinction is my discovery.
 
 **Alternative if spacetime geometry itself is unappealing:** global cosmic topology offers a more observational and computational project; emergent spacetime offers a more quantum-information-centered project. Both still need a precise model and an honest account of what their calculations establish.
 

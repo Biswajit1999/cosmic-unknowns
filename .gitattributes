@@ -1,0 +1,5 @@
+# Preserve exact bytes of generated scientific artifacts and their hash manifest.
+results/study-001/*.csv -text
+results/study-001/*.json -text
+figures/study-001/*.svg -text
+figures/study-001/*.png -text

@@ -1,0 +1,91 @@
+{
+  "extended_domain": [
+    {
+      "xi": 0.16666666666666666,
+      "K": 0.003,
+      "relative_T_change": 3.1279202659550975e-05,
+      "complex_t_change": 7.507148229143524e-08
+    },
+    {
+      "xi": 0.4,
+      "K": 0.003,
+      "relative_T_change": 9.414423048026421e-06,
+      "complex_t_change": 1.049390563355435e-07
+    },
+    {
+      "xi": 0.49,
+      "K": 0.003,
+      "relative_T_change": 9.470723858484575e-07,
+      "complex_t_change": 1.2876290420471584e-07
+    },
+    {
+      "xi": 0.49,
+      "K": 0.1,
+      "relative_T_change": 1.4383705337905894e-10,
+      "complex_t_change": 1.605260222376484e-08
+    },
+    {
+      "xi": 0.495,
+      "K": 0.0006,
+      "relative_T_change": 9.081922165421474e-07,
+      "complex_t_change": 3.500057651053723e-08
+    },
+    {
+      "xi": 0.495,
+      "K": 0.08,
+      "relative_T_change": 4.636957484649429e-11,
+      "complex_t_change": 1.0090891974511996e-08
+    }
+  ],
+  "packet_quadrature": [
+    {
+      "center_K": 0.1,
+      "xi": 0,
+      "direct_41": 0.005249600310989159,
+      "direct_81": 0.0052496004186254235,
+      "interpolated": 0.0052586885179485825,
+      "relative_interpolation_difference": 0.0017311983005248166,
+      "relative_quadrature_difference": 2.0503706177343872e-08
+    },
+    {
+      "center_K": 0.3,
+      "xi": 0,
+      "direct_41": 0.06485102689917029,
+      "direct_81": 0.06485102870257158,
+      "interpolated": 0.0650093895207092,
+      "relative_interpolation_difference": 0.0024419168254665724,
+      "relative_quadrature_difference": 2.7808368274762074e-08
+    },
+    {
+      "center_K": 0.03,
+      "xi": 0.49,
+      "direct_41": 0.7930030255683849,
+      "direct_81": 0.7930030260528577,
+      "interpolated": 0.7928710460077433,
+      "relative_interpolation_difference": 0.00016643069544297617,
+      "relative_quadrature_difference": 6.109344141691508e-10
+    }
+  ],
+  "eigenvalue_order": [
+    {
+      "xi": 0.55,
+      "energies": [
+        -0.005405268704070272,
+        -0.0054050392691400995,
+        -0.005404981940894072
+      ],
+      "successive_difference_ratio": 4.002127154985693
+    },
+    {
+      "xi": 1.0,
+      "energies": [
+        -0.2872229331868511,
+        -0.2871645479310863,
+        -0.28714996730479997
+      ],
+      "successive_difference_ratio": 4.004303698496245
+    }
+  ],
+  "max_extended_domain_relative_change": 3.1279202659550975e-05,
+  "max_packet_relative_interpolation_difference": 0.0024419168254665724
+}

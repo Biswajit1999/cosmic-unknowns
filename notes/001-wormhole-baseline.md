@@ -1,6 +1,8 @@
 # A checked starting calculation
 
-**Classification: reproduction of a known theoretical geometry, not a new solution.** We use the Morris–Thorne form and the familiar zero-redshift choice $b(r)=r_0^2/r$, often associated with the Ellis wormhole geometry. The matter model is not specified here. [Geometric framework](https://doi.org/10.1119/1.15620)
+**Author: Biswajit Jana**
+
+**Classification: reproduction of a known theoretical geometry, not a new solution.** I use the Morris–Thorne form and the familiar zero-redshift choice $b(r)=r_0^2/r$, often associated with the Ellis wormhole geometry. The matter model is not specified here. [Geometric framework](https://doi.org/10.1119/1.15620)
 
 ## Geometry and conventions
 
@@ -31,7 +33,7 @@ p_r=\frac{c^4}{8\pi G}\left[-\frac{b}{r^3}+
 \frac{2}{r}\left(1-\frac{b}{r}\right)\Phi'\right].
 $$
 
-Write $C=c^4/(8\pi G)$. Substituting our chosen functions gives
+Write $C=c^4/(8\pi G)$. Substituting my chosen functions gives
 
 $$
 \epsilon=p_r=-\frac{Cr_0^2}{r^4},\qquad
@@ -64,7 +66,7 @@ $$
 \frac{dp_r}{dr}=-(\epsilon+p_r)\Phi'+\frac{2(p_t-p_r)}{r}.
 $$
 
-For our choice, both sides equal $4Cr_0^2/r^5$. The test suite compares a numerical derivative against this expression. Other checks confirm throat regularity, flare-out, and inverse-square scaling of the throat stress with radius.
+For my choice, both sides equal $4Cr_0^2/r^5$. The test suite compares a numerical derivative against this expression. Other checks confirm throat regularity, flare-out, and inverse-square scaling of the throat stress with radius.
 
 For illustration, the $t=\mathrm{constant}$, equatorial spatial slice can be embedded in Euclidean three-space with
 

@@ -1,0 +1,226 @@
+{
+  "author": "Biswajit Jana",
+  "study_date": "2026-11-10",
+  "data_class": "Deterministic numerical model data; no astronomical observations",
+  "model": "Fixed Ellis geometry; real scalar probe; spherical sector ell=0",
+  "settings": {
+    "domain": 160,
+    "rtol": 2e-10,
+    "atol": 2e-12,
+    "frequency_count": 105,
+    "couplings": [
+      0.0,
+      0.16666666666666666,
+      0.4,
+      0.49,
+      0.5
+    ]
+  },
+  "max_flux_error": 3.0288431762670598e-09,
+  "max_domain_relative_T_error_at_160": 4.688834249377827e-05,
+  "max_load_equivalence_error": 4.009005477724149e-11,
+  "minimal_low_K_fitted_exponent": 2.0022018562219137,
+  "minimal_low_K_fitted_coefficient": 0.4102007113230692,
+  "minimal_exact_leading_coefficient": 0.4052847345693511,
+  "max_relative_eigenvalue_grid_change": 5.077446885859427e-05,
+  "max_relative_eigenvalue_box_change": 1.6590917957692852e-05,
+  "selected_values": [
+    {
+      "xi": 0,
+      "K": 0.01,
+      "T": 4.05780630336248e-05
+    },
+    {
+      "xi": 0,
+      "K": 0.1,
+      "T": 0.004315785066705557
+    },
+    {
+      "xi": 0,
+      "K": 1.0,
+      "T": 0.7744350919901579
+    },
+    {
+      "xi": 0.16666666666666666,
+      "K": 0.01,
+      "T": 0.00014164691311997383
+    },
+    {
+      "xi": 0.16666666666666666,
+      "K": 0.1,
+      "T": 0.014766880043352944
+    },
+    {
+      "xi": 0.16666666666666666,
+      "K": 1.0,
+      "T": 0.9154952053366424
+    },
+    {
+      "xi": 0.49,
+      "K": 0.01,
+      "T": 0.28237761219782614
+    },
+    {
+      "xi": 0.49,
+      "K": 0.1,
+      "T": 0.9760637144395201
+    },
+    {
+      "xi": 0.49,
+      "K": 1.0,
+      "T": 0.9999584157047643
+    },
+    {
+      "xi": 0.5,
+      "K": 0.01,
+      "T": 1.0000000000000018
+    },
+    {
+      "xi": 0.5,
+      "K": 0.1,
+      "T": 1.0000000000014895
+    },
+    {
+      "xi": 0.5,
+      "K": 1.0,
+      "T": 1.0000000020080408
+    }
+  ],
+  "stability": [
+    {
+      "xi": 0.505,
+      "g": 0.010000000000000009,
+      "domain": 1782.535362629226,
+      "spacing": 0.01999994796895695,
+      "grid_points": 178253,
+      "energy_coarse": -6.078034115649055e-05,
+      "energy_fine": -6.0780266519714214e-05,
+      "energy_richardson": -6.078024164078876e-05,
+      "gamma": 0.007796168394845558,
+      "leading_gamma": 0.00785398163397449,
+      "second_order_gamma": 0.007795076771719682,
+      "relative_grid_change": 1.2279756070876502e-06,
+      "relative_box_change": 3.6921545547574652e-06,
+      "critical_dimensionless_mass": 0.007796168394845558
+    },
+    {
+      "xi": 0.51,
+      "g": 0.020000000000000018,
+      "domain": 891.267681314613,
+      "spacing": 0.01999994796895695,
+      "grid_points": 89126,
+      "energy_coarse": -0.00023965583764100725,
+      "energy_fine": -0.0002396552594878464,
+      "energy_richardson": -0.0002396550667701261,
+      "gamma": 0.015480796709799082,
+      "leading_gamma": 0.01570796326794898,
+      "second_order_gamma": 0.015472343818929746,
+      "relative_grid_change": 2.4124309532247423e-06,
+      "relative_box_change": 4.070309645554104e-06,
+      "critical_dimensionless_mass": 0.015480796709799082
+    },
+    {
+      "xi": 0.52,
+      "g": 0.040000000000000036,
+      "domain": 445.6338406573065,
+      "spacing": 0.019999723573166973,
+      "grid_points": 44563,
+      "energy_coarse": -0.0009325346837663637,
+      "energy_fine": -0.0009325303411039342,
+      "energy_richardson": -0.0009325288935497911,
+      "gamma": 0.03053733605850044,
+      "leading_gamma": 0.03141592653589796,
+      "second_order_gamma": 0.03047344873982102,
+      "relative_grid_change": 4.6568374401090296e-06,
+      "relative_box_change": 4.928305893825424e-06,
+      "critical_dimensionless_mass": 0.03053733605850044
+    },
+    {
+      "xi": 0.55,
+      "g": 0.10000000000000009,
+      "domain": 178.25353626292264,
+      "spacing": 0.019999274796692768,
+      "grid_points": 17825,
+      "energy_coarse": -0.005405039736747366,
+      "energy_fine": -0.0054049824129808475,
+      "energy_richardson": -0.005404963305058675,
+      "gamma": 0.07351845554048776,
+      "leading_gamma": 0.0785398163397449,
+      "second_order_gamma": 0.07264933011426403,
+      "relative_grid_change": 1.0605614261915974e-05,
+      "relative_box_change": 8.207589160535989e-06,
+      "critical_dimensionless_mass": 0.07351845554048776
+    },
+    {
+      "xi": 0.6,
+      "g": 0.19999999999999996,
+      "domain": 89.1267681314614,
+      "spacing": 0.019999274796692786,
+      "grid_points": 8912,
+      "energy_coarse": -0.019414238156076784,
+      "energy_fine": -0.019413876833998468,
+      "energy_richardson": -0.019413756393305694,
+      "gamma": 0.13933325659477602,
+      "leading_gamma": 0.15707963267948963,
+      "second_order_gamma": 0.1335176877775662,
+      "relative_grid_change": 1.861119016932644e-05,
+      "relative_box_change": 1.6590917957692852e-05,
+      "critical_dimensionless_mass": 0.13933325659477602
+    },
+    {
+      "xi": 0.7,
+      "g": 0.3999999999999999,
+      "domain": 80.0,
+      "spacing": 0.02,
+      "grid_points": 7999,
+      "energy_coarse": -0.06535097310929827,
+      "energy_fine": -0.06534898882419539,
+      "energy_richardson": -0.06534832739582776,
+      "gamma": 0.25563318915161964,
+      "leading_gamma": 0.31415926535897926,
+      "second_order_gamma": 0.2199114857512855,
+      "relative_grid_change": 3.0363512714126628e-05,
+      "relative_box_change": 5.638939315488756e-09,
+      "critical_dimensionless_mass": 0.25563318915161964
+    },
+    {
+      "xi": 0.8,
+      "g": 0.6000000000000001,
+      "domain": 80.0,
+      "spacing": 0.02,
+      "grid_points": 7999,
+      "energy_coarse": -0.12815278268030011,
+      "energy_fine": -0.12814780359958103,
+      "energy_richardson": -0.128146143906008,
+      "gamma": 0.3579750604525517,
+      "leading_gamma": 0.471238898038469,
+      "second_order_gamma": 0.2591813939211579,
+      "relative_grid_change": 3.885269297276839e-05,
+      "relative_box_change": 2.537969834293108e-12,
+      "critical_dimensionless_mass": 0.3579750604525517
+    },
+    {
+      "xi": 1.0,
+      "g": 1.0,
+      "domain": 80.0,
+      "spacing": 0.02,
+      "grid_points": 7999,
+      "energy_coarse": -0.28716454793145724,
+      "energy_fine": -0.287149967304061,
+      "energy_richardson": -0.2871451070949289,
+      "gamma": 0.5358592232059918,
+      "leading_gamma": 0.7853981633974483,
+      "second_order_gamma": 0.19634954084936207,
+      "relative_grid_change": 5.077446885859427e-05,
+      "relative_box_change": 2.5131008385415043e-12,
+      "critical_dimensionless_mass": 0.5358592232059918
+    }
+  ],
+  "environment": {
+    "python": "3.14.8",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2"
+  },
+  "elapsed_seconds": 98.78038550000201
+}

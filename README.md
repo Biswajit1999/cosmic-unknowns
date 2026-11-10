@@ -3,15 +3,33 @@
 ### Wormholes, quantum spacetime and cosmic origins
 
 **Author: Biswajit Jana**
-**Version 0.2.0 · 10 November 2026 · Private working research repository**
+**Version 0.3.0 · 10 November 2026 · Private working research repository**
+
+![Hypothetical wormhole camera illustration with explanatory legends](figures/concept/wormhole-camera-hero.png)
+
+*Model-inspired photorealistic illustration, not an observation. [Calculated camera view and equations](reports/006-what-a-wormhole-could-look-like.md) · [Image provenance](figures/concept/README.md).*
 
 I investigate foundational questions through explicit mathematical models, literature review and reproducible computation. My first study asks how scalar waves propagate through a prescribed wormhole, when the added field becomes unstable, and what an observer can infer from one-sided reflection.
 
 **[Read the research report](reports/003-transmission-stability-study.md)** · **[Read the derivation](notes/002-scalar-transmission-derivation.md)** · **[Inspect the literature audit](references/literature-audit-2026-11-10.md)**
 
+## New: uncertainty and model distinguishability
+
+I completed a second study with **12,000 synthetic experiments**, 288,000 channel counts, explicit binomial error bars, independent calibration checks, and four new scientific figures. I compare the Ellis transmission spectrum with a fitted positive sech-squared barrier.
+
+At 10,000 incident quanta in each of 24 channels, the broad frequency design rejects the comparator in 500/500 simulated trials: **100%, with a conditional 95% Monte Carlo interval of 99.24–100%**. The low-frequency design rejects it in only 19/500 trials at the same count budget. This establishes a restricted model-discrimination result under ideal counting assumptions, not evidence of a physical wormhole.
+
+**[Read study 002](reports/005-transmission-identifiability.md)** · **[Inference equations](notes/003-counting-inference-derivation.md)** · **[Data and uncertainty guide](results/study-002/README.md)** · **[Literature extension](references/study-002-literature.md)**
+
+![Detection power with Monte Carlo error bars](figures/study-002/02-power-and-false-positives.png)
+
+*Error bars are pointwise 95% Wilson intervals over repeated simulations, conditional on an independently estimated threshold. Additional threshold uncertainty is reported separately. All counting data are synthetic.*
+
 ![Calculated scalar transmission](figures/study-001/01-transmission.png)
 
 ## What I have calculated
+
+**[What could a wormhole look like?](reports/006-what-a-wormhole-could-look-like.md)** — a calculated null-ray camera view, legends, finite-observer equations and synthetic-sky provenance.
 
 - 525 spectral samples across five curvature couplings, with a published low-frequency benchmark.
 - 176 additional samples testing a weak-barrier scaling approximation near transparency.
@@ -50,12 +68,16 @@ py -m venv .venv
 .venv\Scripts\python.exe scripts/wormhole_baseline.py
 .venv\Scripts\python.exe scripts/run_wormhole_study.py
 .venv\Scripts\python.exe scripts/audit_wormhole_study.py
+.venv\Scripts\python.exe scripts/run_inference_study.py
+.venv\Scripts\python.exe scripts/audit_inference_study.py
+.venv\Scripts\python.exe scripts/render_wormhole_camera.py
+.venv\Scripts\python.exe scripts/verify_research_artifacts.py
 ```
 
-On Linux or macOS, use `python3 -m venv .venv` and `.venv/bin/python` in the subsequent commands. No external observations or random seeds are needed: these are deterministic model calculations. Floating-point details and execution time may vary by platform. The main study took approximately 99 seconds in the recorded environment; the supplementary audit adds computation.
+On Linux or macOS, use `python3 -m venv .venv` and `.venv/bin/python` in the subsequent commands. Study 001 is deterministic; study 002 uses the saved seeds 20261110–20261112 and saves every count. Neither imports astronomical observations. Floating-point details and execution time may vary by platform. The first main study took approximately 99 seconds and the second approximately 80 seconds in the recorded environment; supplementary audits add computation.
 
 ## Next research step
 
-I plan to replace the unrestricted frequency-dependent load with explicitly specified physical alternatives and determine which additional measurements could distinguish them. This is a candidate research direction, not a novelty claim. A separate reproduction of the magnetically supported wormhole literature would require its actual background and supporting fields.
+I have now tested one restricted conservative wave-barrier alternative. A physically stronger comparison still requires a competing object's actual matter model, geometry, multiple modes, source and detector response. The next questions concern nuisance parameters, calibration errors and phase information. A separate reproduction of the magnetically supported wormhole literature would require its actual background and supporting fields.
 
 The repository remains private. No publication or submission is implied. Code and manuscript licensing has not yet been selected; source citations preserve credit for prior work. The local working directory is `gravity-frontiers`, while the GitHub repository is [Biswajit1999/cosmic-unknowns](https://github.com/Biswajit1999/cosmic-unknowns).

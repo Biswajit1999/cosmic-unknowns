@@ -1,0 +1,53 @@
+{
+  "author": "Biswajit Jana",
+  "classification": "synthetic controlled counting experiment",
+  "date": "2026-11-10",
+  "seed": 20261110,
+  "channels": 24,
+  "designs": {
+    "low_band": [
+      0.03,
+      0.2
+    ],
+    "broad_band": [
+      0.05,
+      1.5
+    ]
+  },
+  "trials_per_channel": [
+    100,
+    1000,
+    10000,
+    100000
+  ],
+  "calibration_repetitions": 500,
+  "evaluation_repetitions": 500,
+  "nominal_false_positive": 0.05,
+  "threshold_bootstraps": 1000,
+  "truth": {
+    "xi": 0.0,
+    "ell": 0,
+    "scale": 1.0,
+    "domain": 320.0,
+    "rtol": 2e-11,
+    "atol": 2e-13
+  },
+  "pt_fit_bounds_logC_logb": [
+    [
+      -16.0,
+      25.0
+    ],
+    [
+      -2.3025850929940455,
+      3.4011973816621555
+    ]
+  ],
+  "assumptions": [
+    "independent incident scalar quanta",
+    "known incident counts and wave numbers",
+    "perfect transmission classification",
+    "no absorption or background counts",
+    "fixed massless minimal spherical probe",
+    "no astronomical observations"
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "author": "Biswajit Jana",
+  "algorithm": "bounded Nelder-Mead, wider bounds",
+  "logC_bounds": [
+    -25,
+    40
+  ],
+  "b_bounds": [
+    0.01,
+    60
+  ],
+  "audited_fits": 1041,
+  "original_non_success_audited": 44,
+  "alternative_non_success": 0,
+  "max_deviance_improvement": 0.0029035948525546473,
+  "max_non_success_deviance_improvement": 0.0001081602304608964,
+  "changed_decisions": 0,
+  "comparisons": [
+    {
+      "design": "low_band",
+      "N": 100,
+      "group": "null_check",
+      "original_rejected": 23,
+      "alternative_rejected": 23,
+      "changed_decisions": 0,
+      "original_threshold": 25.863561653096607,
+      "alternative_threshold": 25.863561653096607
+    },
+    {
+      "design": "low_band",
+      "N": 100,
+      "group": "ellis_power",
+      "original_rejected": 19,
+      "alternative_rejected": 19,
+      "changed_decisions": 0,
+      "original_threshold": 25.863561653096607,
+      "alternative_threshold": 25.863561653096607
+    },
+    {
+      "design": "low_band",
+      "N": 1000,
+      "group": "null_check",
+      "original_rejected": 17,
+      "alternative_rejected": 17,
+      "changed_decisions": 0,
+      "original_threshold": 36.80611781124906,
+      "alternative_threshold": 36.80611781124906
+    },
+    {
+      "design": "low_band",
+      "N": 1000,
+      "group": "ellis_power",
+      "original_rejected": 12,
+      "alternative_rejected": 12,
+      "changed_decisions": 0,
+      "original_threshold": 36.80611781124906,
+      "alternative_threshold": 36.80611781124906
+    },
+    {
+      "design": "low_band",
+      "N": 10000,
+      "group": "null_check",
+      "original_rejected": 21,
+      "alternative_rejected": 21,
+      "changed_decisions": 0,
+      "original_threshold": 35.68519261255829,
+      "alternative_threshold": 35.68519261255829
+    },
+    {
+      "design": "low_band",
+      "N": 10000,
+      "group": "ellis_power",
+      "original_rejected": 19,
+      "alternative_rejected": 19,
+      "changed_decisions": 0,
+      "original_threshold": 35.68519261255829,
+      "alternative_threshold": 35.68519261255829
+    },
+    {
+      "design": "low_band",
+      "N": 100000,
+      "group": "null_check",
+      "original_rejected": 18,
+      "alternative_rejected": 18,
+      "changed_decisions": 0,
+      "original_threshold": 34.16921509660644,
+      "alternative_threshold": 34.16921509660644
+    },
+    {
+      "design": "low_band",
+      "N": 100000,
+      "group": "ellis_power",
+      "original_rejected": 25,
+      "alternative_rejected": 25,
+      "changed_decisions": 0,
+      "original_threshold": 34.16921509660644,
+      "alternative_threshold": 34.16921509660644
+    },
+    {
+      "design": "broad_band",
+      "N": 100,
+      "group": "null_check",
+      "original_rejected": 25,
+      "alternative_rejected": 25,
+      "changed_decisions": 0,
+      "original_threshold": 33.3933909353413,
+      "alternative_threshold": 33.3933909353413
+    },
+    {
+      "design": "broad_band",
+      "N": 100,
+      "group": "ellis_power",
+      "original_rejected": 22,
+      "alternative_rejected": 22,
+      "changed_decisions": 0,
+      "original_threshold": 33.3933909353413,
+      "alternative_threshold": 33.3933909353413
+    },
+    {
+      "design": "broad_band",
+      "N": 1000,
+      "group": "null_check",
+      "original_rejected": 32,
+      "alternative_rejected": 32,
+      "changed_decisions": 0,
+      "original_threshold": 34.851570763292415,
+      "alternative_threshold": 34.851570763292415
+    },
+    {
+      "design": "broad_band",
+      "N": 1000,
+      "group": "ellis_power",
+      "original_rejected": 153,
+      "alternative_rejected": 153,
+      "changed_decisions": 0,
+      "original_threshold": 34.851570763292415,
+      "alternative_threshold": 34.851570763292415
+    },
+    {
+      "design": "broad_band",
+      "N": 10000,
+      "group": "null_check",
+      "original_rejected": 30,
+      "alternative_rejected": 30,
+      "changed_decisions": 0,
+      "original_threshold": 33.778091925432435,
+      "alternative_threshold": 33.778091925432435
+    },
+    {
+      "design": "broad_band",
+      "N": 10000,
+      "group": "ellis_power",
+      "original_rejected": 500,
+      "alternative_rejected": 500,
+      "changed_decisions": 0,
+      "original_threshold": 33.778091925432435,
+      "alternative_threshold": 33.778091925432435
+    },
+    {
+      "design": "broad_band",
+      "N": 100000,
+      "group": "null_check",
+      "original_rejected": 23,
+      "alternative_rejected": 23,
+      "changed_decisions": 0,
+      "original_threshold": 35.20177392623723,
+      "alternative_threshold": 35.20177392623723
+    },
+    {
+      "design": "broad_band",
+      "N": 100000,
+      "group": "ellis_power",
+      "original_rejected": 500,
+      "alternative_rejected": 500,
+      "changed_decisions": 0,
+      "original_threshold": 35.20177392623723,
+      "alternative_threshold": 35.20177392623723
+    }
+  ],
+  "limitation": "Selected audit; not a global optimizer proof or uniform test calibration."
+}

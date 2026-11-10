@@ -3,3 +3,10 @@ results/study-001/*.csv -text
 results/study-001/*.json -text
 figures/study-001/*.svg -text
 figures/study-001/*.png -text
+results/study-002/*.csv -text
+results/study-002/*.json -text
+figures/study-002/*.svg -text
+figures/study-002/*.png -text
+results/study-003/*.csv -text
+results/study-003/*.json -text
+figures/study-003/*.png -text

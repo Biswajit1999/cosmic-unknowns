@@ -1,0 +1,27 @@
+{
+  "author": "Biswajit Jana",
+  "model": "ultrastatic symmetric Ellis null geodesics",
+  "observer_x_over_a": 8,
+  "horizontal_fov_degrees": 38,
+  "pixels": [
+    1200,
+    800
+  ],
+  "subpixels_per_pixel": 4,
+  "sky_seeds": [
+    20261113,
+    20261114
+  ],
+  "sky_source": "procedural finite-size stars and diffuse bands; no catalog",
+  "critical_angular_radius_degrees": 7.125016348901799,
+  "display": "[1-exp(-12 radiance)]^(1/2.2)",
+  "uniform_radiance_max_error": 5.551115123125783e-17,
+  "max_angle_quadrature_error": 6.217248937900877e-15,
+  "limitations": [
+    "finite sampling does not resolve arbitrarily high winding images",
+    "no detector noise or PSF",
+    "no radiation transport through matter",
+    "no realistic source or observer distance inferred",
+    "surface brightness conserved; no artificial magnification multiplier"
+  ]
+}

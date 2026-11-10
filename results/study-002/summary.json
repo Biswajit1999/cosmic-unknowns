@@ -1,0 +1,64 @@
+{
+  "author": "Biswajit Jana",
+  "classification": "synthetic controlled counting experiment",
+  "environment": {
+    "python": "3.14.8",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2"
+  },
+  "design_results": {
+    "low_band": {
+      "pt_logC_logb": [
+        3.5667095044990056,
+        1.3404643199650887
+      ],
+      "height": 0.5867091872425819,
+      "alpha": 0.8222305620730744,
+      "sum_Bernoulli_KL": 8.54058983631744e-07,
+      "max_absolute_probability_mismatch": 8.070714441203719e-05,
+      "Fisher_condition_number": 2704.0643748993784,
+      "Fisher_per_trial": [
+        [
+          0.11597398685276986,
+          -0.25678330937674154
+        ],
+        [
+          -0.2567833093767415,
+          0.5700553099323732
+        ]
+      ]
+    },
+    "broad_band": {
+      "pt_logC_logb": [
+        2.525101948506601,
+        0.9449901616727253
+      ],
+      "height": 0.93845318164088,
+      "alpha": 1.2210848979191404,
+      "sum_Bernoulli_KL": 0.0043803357579266,
+      "max_absolute_probability_mismatch": 0.014352352863694684,
+      "Fisher_condition_number": 200.75984642913227,
+      "Fisher_per_trial": [
+        [
+          1.7341618303763666,
+          -6.676795987735204
+        ],
+        [
+          -6.676795987735205,
+          28.26632948872187
+        ]
+      ]
+    }
+  },
+  "total_synthetic_experiments": 12000,
+  "total_synthetic_channel_counts": 288000,
+  "optimizer_non_success": 44,
+  "boundary_fit_count": 891,
+  "max_multistart_deviance_improvement": 0.0007950464880721597,
+  "max_pt_ode_absolute_error": 2.160294165776122e-11,
+  "max_domain_absolute_change": 1.3629286588212608e-10,
+  "max_tolerance_absolute_change": 1.4002288217795922e-10,
+  "max_domain_change_in_counting_sd": 5.849517835898541e-07,
+  "elapsed_seconds": 79.54996728897095
+}

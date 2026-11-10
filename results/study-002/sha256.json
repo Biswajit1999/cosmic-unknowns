@@ -1,0 +1,21 @@
+{
+  "results/study-002/design.json": "a1fd381eebfd9f744b9e8db75160b93901b60bad4936b283a77898913b41f8b4",
+  "results/study-002/example-counts.csv": "92c9707f93eaf527cca47e1206ac5a811340260cd55815b4f9ab4644c2a82f7a",
+  "results/study-002/independent-audit.json": "9546d1926d84195d2a67c837f77a275a004fce5353b92b125f3774b0e671cdf9",
+  "results/study-002/independent-optimizer-audit.csv": "79086c7acca6a02a048e9286c227c426035feb5c569edb2ec456cdc3b45c2edf",
+  "results/study-002/numerical-audit.csv": "94daba39a3b25a7ef42e794cfa96aa738c422fe2d7fd51f8676d7518681c32eb",
+  "results/study-002/optimizer-audit.csv": "e1c080074dc2b0b13b2294ab648d1c7bdc6851cb01d2bfce4631b12061c07e60",
+  "results/study-002/pt-validation.csv": "4fd395cbaffb43fb014080d0a798eaf4fa4bdf83334f6cc4f0864efade9e4d69",
+  "results/study-002/rates.csv": "8dc852c60ff4a6ccda0dd39af84387fc2e8deba544f57938b944f5ecde7f3655",
+  "results/study-002/spectra.csv": "33271f923f59e12cec496f0363302c82f90058b8d8cc9c44ce77d649fe8a4937",
+  "results/study-002/summary.json": "adab1ff8f755d69977f9733d9691cd6ef58a0a77d98fe7af0da603bd4bf915c9",
+  "results/study-002/trials.csv": "4681c6ea3ea4ce83f4d3206241767a4bf2eecee73c2f830da9569a1a9b96c783",
+  "figures/study-002/01-counts-and-residuals.png": "67b0a05dafb7391dba349aac9d74d711e6131b641f1b105af96405f4e93f8102",
+  "figures/study-002/01-counts-and-residuals.svg": "9efd6f4c7b93cc72c1fce500419cb241aad9c829b6bfa3b884abcb059e344409",
+  "figures/study-002/02-power-and-false-positives.png": "fc4a021b25b156c85c8504957c65e9b8353f7a2e47f5ea76208da847a6972c63",
+  "figures/study-002/02-power-and-false-positives.svg": "933ad3012f003bc49e0143d0a5bd80ec73c7ac94702ea6589a9843ca47c50ee4",
+  "figures/study-002/03-potential-and-information.png": "f1df212c17bd4123269ecc19a45c39d12b6bc3d8108910218d0485482fb769a8",
+  "figures/study-002/03-potential-and-information.svg": "cf1cbf9124f3983c4f172df79d38d460ddbda971e48ae9400e7fe2a35b4b99fe",
+  "figures/study-002/04-numerical-error-audit.png": "e1668bcb570c3acf59ca3193b81d34d126c090748b927dbe775a733dc6478636",
+  "figures/study-002/04-numerical-error-audit.svg": "a269315c07bb143aa9ba34dbac8d8f45e1d4f2be468b4531f37751bc4511c710"
+}

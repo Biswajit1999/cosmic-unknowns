@@ -22,3 +22,6 @@ figures/study-005/*.png -text
 output/pdf/*.json -text
 output/pdf/*.pdf binary
 reports/007-calibration-limited-identification.md text eol=lf
+outreach/linkedin/*.png binary
+outreach/linkedin/*.svg -text
+outreach/linkedin/manifest.json -text

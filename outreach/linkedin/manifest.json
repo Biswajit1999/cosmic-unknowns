@@ -1,0 +1,14 @@
+{
+  "author": "Biswajit Jana",
+  "dimensions_px": [
+    1800,
+    2250
+  ],
+  "data_type": "synthetic-model analysis; no observational data",
+  "files": {
+    "results/study-005/rates.csv": "d8f070fef8886a696cc6e207461aa4ea869eb1616d1f02c22c0272346ff7db9f",
+    "results/study-004/summary.json": "3ef71fff02c1d34196b047f719eedea854217db43628b0ec2a88cb4b92872f7c",
+    "outreach/linkedin/wormhole-signal-poster-1800x2250.png": "321489badf3d37c270c6f6a1ab5a66dc55d9e21fff1b17436535d24b7e091365",
+    "outreach/linkedin/wormhole-signal-poster.svg": "b80a377d7da3da51d7b148f76000628cc6d600cb3f0eb9b7300930b2667c711f"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "experiments_replayed": 70000,
+  "count_entries_replayed": 5040000,
+  "solver_decisions_replayed": 1400,
+  "population_certificate_leaves_verified_at_70_digits": 1056,
+  "artifact_hashes": "all verified",
+  "upper_witness_certificates": {
+    "low_band": {
+      "verified_feasible_delta": 0.00012239876125963613,
+      "precision_digits": 70,
+      "target": "exact saved binary floating-point probabilities"
+    },
+    "broad_band": {
+      "verified_feasible_delta": 0.03094299872429062,
+      "precision_digits": 70,
+      "target": "exact saved binary floating-point probabilities"
+    }
+  }
+}

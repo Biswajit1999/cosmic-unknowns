@@ -1,0 +1,10 @@
+{
+  "author": "Biswajit Jana",
+  "experiments": 70000,
+  "science_channel_counts": 1680000,
+  "calibration_channel_counts": 3360000,
+  "undetermined": 0,
+  "null_rejections": 1,
+  "null_experiments": 35000,
+  "interpretation": "Joint-confidence-region exclusion of a bounded comparator family; not physical wormhole existence."
+}

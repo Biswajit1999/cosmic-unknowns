@@ -2,22 +2,23 @@
 
 **Author: Biswajit Jana**
 
-Latest completed work: [Study 006: Independent calibration and continuum exclusion](reports/008-joint-calibration-identification.md).
+Latest completed work: [Study 007: Calibration transfer drift](reports/009-calibration-transfer-drift.md).
 
-- Defined a joint science/calibration experiment and proved the exact-arithmetic false-positive bound for its confidence-region exclusion rule.
-- Implemented interval-checked exclusion over the complete stated comparator domain, with non-rejecting computational fallback.
-- Completed 70,000 synthetic experiments and saved all count records, uncertainty estimates and replay checks.
-- Narrowed the population matching allowance for the saved finite-channel spectra using verified exclusion branches and a feasible upper witness.
-- Reviewed current primary versions of recent MMP transmission/echo and GW231123 papers; documented what has and has not been read or reproduced.
+- Extended simultaneous confidence regions to a prespecified reference-to-science drift bound.
+- Completed 20,000 synthetic experiments and 160,000 paired decision records, with all counts and pointwise uncertainty intervals saved.
+- Replayed every count record, 3,200 paired decision records and 400 additional matched-bound decisions without nesting.
+- Bracketed the finite-channel minimum spectral distance using full-domain exclusion and a feasible witness checked at 70 digits.
+- Derived observation-model overlap near 0.336107 percentage points of drift around 2% reference errors.
+- Added four calculated figures and a scoped primary-source calibration literature audit.
 
-The solved subproblem is conditional statistical identification, not physical wormhole existence. The numerical beta quantiles remain outside the validated-arithmetic certificate. Calibration transfer, physical alternatives and independent review remain essential.
+The solved subproblem is conditional statistical identification, not physical wormhole existence. [Study 006](reports/008-joint-calibration-identification.md) supplies the confidence construction. Numerical beta quantiles remain outside validated arithmetic; physical alternatives, observational transfer assumptions and independent review remain essential.
 
 ## Next study specification
 
-**Primary question:** how much calibration-to-science response drift can be tolerated while retaining valid null control and useful power?
+**Primary question:** can independent validation data supply a useful drift bound, rather than assuming it?
 
-Prespecify a bound epsilon on each science/reference rate difference. Enlarge reference confidence intervals by epsilon, clip to [0,1], and reuse the continuum exclusion. Simulate both bounded drift and deliberate bound violations. The former must retain the confidence-set argument; the latter should reveal failure rather than be hidden. Compare the science/calibration allocation at fixed incident-count cost, with a separate pilot if optimizing allocations. Do not call a future simulated outcome achieved before computing it.
+Specify contemporaneous known-class validation counts and a simultaneous confidence budget. Define what transfer assumption connects injections to science events. For time-separated measurements, introduce a justified rate-of-change bound or an explicit response process. Compare the resulting identification region with Study 007's overlap before selecting allocation. Use separate pilot data if adapting the design. Finite-count allocation under fixed drift was not completed by Study 007.
 
-**Parallel scientific direction for later work:** reproduce finite-time MMP scattering from the current paper versions, then convolve frequency response and impose dimensional observation-time and probe-energy limits. Do not reuse Ellis probabilities for that geometry.
+**Further directions:** constrain response changes using independently measured structure, then test phase or additional modes for observation-set separation. Reproduce current finite-time MMP scattering before imposing observation-time and energy limits; do not reuse Ellis probabilities for that geometry.
 
-[Data guide](results/study-006/README.md) · [Current literature review](references/research-frontier-2026-11-12.md) · [Original formal report](reports/007-calibration-limited-identification.md)
+[Study 007 data](results/study-007/README.md) · [Calibration literature](references/calibration-transfer-2026-11-12.md) · [Wormhole literature](references/research-frontier-2026-11-12.md)

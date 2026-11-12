@@ -1,0 +1,16 @@
+{
+  "experiments_replayed": 20000,
+  "count_entries_replayed": 1440000,
+  "paired_decision_records_replayed": 3200,
+  "independent_matched_bound_replays": 400,
+  "population_certificate_leaves_verified_at_70_digits": 82,
+  "excluded_gap": 0.0070021647903165275,
+  "verified_feasible_gap": 0.0070022349126646535,
+  "exact_exchange_float_residual": 1.1102230246251565e-16,
+  "artifact_hashes": "all verified",
+  "midpoint_exchange_float_residual": 1.1102230246251565e-16,
+  "population_boundary_rows_checked": 101,
+  "valid_bound_null_rejections": 0,
+  "valid_bound_null_decision_records": 52000,
+  "note": "Decision records are paired, not independent; certificates concern saved numerical spectra."
+}

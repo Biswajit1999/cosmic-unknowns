@@ -1,0 +1,12 @@
+{
+  "author": "Biswajit Jana",
+  "experiments": 20000,
+  "count_entries": 1440000,
+  "decision_records": 160000,
+  "undetermined_records": 0,
+  "max_matched_bound_null_rate": 0.0,
+  "max_ignored_drift_null_rate": 1.0,
+  "matching_drift": 0.006722145420158068,
+  "excluded_gap": 0.0070021647903165275,
+  "data_type": "synthetic counts under a prespecified adversarial drift pattern"
+}

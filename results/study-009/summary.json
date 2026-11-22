@@ -1,0 +1,9 @@
+{
+  "author": "Biswajit Jana",
+  "spectral_integrations": 729,
+  "convergence_comparisons": 165,
+  "maximum_geometry_amplitude_difference": 4.930559014074565e-10,
+  "max_flux_error": 2.4257260644588996e-09,
+  "maximum_nonplane_convergence_difference": 1.0218315764133084e-08,
+  "maximum_plane_boundary_difference": 0.1982460436563008
+}

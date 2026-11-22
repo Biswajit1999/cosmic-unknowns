@@ -1,0 +1,16 @@
+{
+  "figures/study-009/01-distinct-geometries.png": "f9074b62e1e7d2e25568dbcb3a193d6d49024af8a1d4ab44753973b97be16266",
+  "figures/study-009/01-distinct-geometries.svg": "38ecee0e71ddf27cd706a2e51c72ee05ec9713f1ec800d4900e03088c34af937",
+  "figures/study-009/02-multimode-complex-scattering.png": "1ba01d0e0894a69c6d102fabc36631badf6d360f5b45817b2304f439b95326ec",
+  "figures/study-009/02-multimode-complex-scattering.svg": "b36f732278f59ddb9068d4ae0d96c0b468a56636482f8538fcf1030a933b6cc7",
+  "figures/study-009/03-noninvariant-observables.png": "391199d721fc6daa319dfd7ace6938bc80bd1a71988562550224079c928a4237",
+  "figures/study-009/03-noninvariant-observables.svg": "2c71507e686352def9a1253aa87285902b7a901fd5e35782dd5bf24462586189",
+  "figures/study-009/04-numerical-audit.png": "fde3847b3229a4913af4a1e5a224718c4f6d46881d1ec5d220076a168f227716",
+  "figures/study-009/04-numerical-audit.svg": "8710d561f70582fc3c983ebd9e477df20bcb1e621731fe76c6425f799d822edb",
+  "results/study-009/convergence.csv": "3c8496e0dd773e1e4dd4c34c69e54240f817b114def153cec4bf53b8f5231efd",
+  "results/study-009/design.json": "7cd398b47782e225884b8b5c1da0a9812fc64a63ffd5c20e8877d583d4b746b6",
+  "results/study-009/profiles.csv": "ec4879771b0989346579510b038ff14a6687c2ccacf3bccbe4635331048c1c18",
+  "results/study-009/spectra.csv": "8a5ac3f695121840d4f2c1f06207abd61aa2a3ff0dfc2bbb0068a432e46848ee",
+  "results/study-009/summary.json": "d041bf12c5ec0255302b102f915f7a89b0acf6b2361a6e723bbe300285695871",
+  "results/study-009/throats.csv": "9f74bccae01fd4acf4c3a578c1d0c94896edf5016b1d45025497715abf69e4c6"
+}

@@ -3,13 +3,25 @@
 ### Wormholes, quantum spacetime and cosmic origins
 
 **Author: Biswajit Jana**
-**Version 0.5.0 · 22 November 2026 · Public working research repository**
+**Version 0.6.0 · 22 November 2026 · Public working research repository**
 
 ![Hypothetical wormhole camera illustration with explanatory legends](figures/concept/wormhole-camera-hero.png)
 
 *Model-inspired photorealistic illustration, not an observation. [Calculated camera view and equations](reports/006-what-a-wormhole-could-look-like.md) · [Image provenance](figures/concept/README.md).*
 
-## Latest research: independent validation
+## Latest research: geometric nonuniqueness
+
+**[Read Study 009](reports/011-conformal-scattering-nonuniqueness.md)** · **[Data and numerical audit](results/study-009/README.md)** · **[Research progress](RESEARCH_PROGRESS.md)**
+
+I construct a continuous family of distinct regular wormhole metrics with exactly the same massless-scalar radial potentials for every angular mode and fixed curvature coupling. The mechanism is an established harmonic conformal rescaling. Throat areas, curvature and static clock ratios differ, while complex scattering amplitudes coincide in the shared tortoise-coordinate and radiative-field convention. Independently calibrated areal distances and clocks supply additional information.
+
+The study includes **729 original-field integrations**, **165 numerical comparisons**, a direct four-dimensional tensor audit and **four scientific figures**. Across the sampled geometries, complex amplitudes differ by at most **4.93 × 10⁻¹⁰**; separate convergence comparisons reach **1.02 × 10⁻⁸**. These deterministic differences are not statistical confidence limits. All metrics still require negative throat null-energy density; no viable matter source, stability or observed wormhole is established.
+
+![Distinct geometries with common massless scattering](figures/study-009/01-distinct-geometries.png)
+
+*Generated model data, not astronomical observations. [Complex scattering and phase](figures/study-009/02-multimode-complex-scattering.png) · [Clock and massive-probe discriminants](figures/study-009/03-noninvariant-observables.png) · [Boundary-error audit](figures/study-009/04-numerical-audit.png) · [Literature and reading depth](references/conformal-identification-2026-11-22.md).*
+
+## Previous research: independent validation
 
 **[Read Study 008](reports/010-validation-restores-identification.md)** · **[Data and uncertainty guide](results/study-008/README.md)** · **[Research progress](RESEARCH_PROGRESS.md)**
 
@@ -105,6 +117,6 @@ On Linux or macOS, use `python3 -m venv .venv` and `.venv/bin/python` in the sub
 
 PDF build instructions and optional dependencies are in [the report build guide](output/pdf/README.md). All manuscript narrative lists Biswajit Jana as its sole author; scientific sources retain their original attribution.
 
-I have now tested one restricted conservative wave-barrier alternative. A physically stronger comparison still requires a competing object's actual matter model, geometry, multiple modes, source and detector response. The next questions concern nuisance parameters, calibration errors and phase information. A separate reproduction of the magnetically supported wormhole literature would require its actual background and supporting fields.
+The next physical step is to specify and verify supporting matter, then assess coupled stability. The next observability step is a calibrated clock/distance experiment or a known-mass probe with correct long-range scattering boundaries. Study 009 shows why more massless angular modes and counts alone cannot remove its exact operator ambiguity. Source and detector nuisance parameters remain part of any observational test.
 
 The repository became public on 10 November 2026. Public availability does not imply peer review or journal submission. Code and manuscript licensing has not yet been selected; source citations preserve credit for prior work. The local working directory is `gravity-frontiers`, while the GitHub repository is [Biswajit1999/cosmic-unknowns](https://github.com/Biswajit1999/cosmic-unknowns).

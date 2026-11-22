@@ -3,19 +3,29 @@
 ### Wormholes, quantum spacetime and cosmic origins
 
 **Author: Biswajit Jana**
-**Version 0.4.0 · 10 November 2026 · Public working research repository**
+**Version 0.5.0 · 22 November 2026 · Public working research repository**
 
 ![Hypothetical wormhole camera illustration with explanatory legends](figures/concept/wormhole-camera-hero.png)
 
 *Model-inspired photorealistic illustration, not an observation. [Calculated camera view and equations](reports/006-what-a-wormhole-could-look-like.md) · [Image provenance](figures/concept/README.md).*
 
-## Formal scientific report
+## Latest research: independent validation
+
+**[Read Study 008](reports/010-validation-restores-identification.md)** · **[Data and uncertainty guide](results/study-008/README.md)** · **[Research progress](RESEARCH_PROGRESS.md)**
+
+In 29,000 synthetic experiments, retaining the measured response in each channel can recover discrimination that is lost when validation is reduced to one maximum-drift bound. The study compares allocations at fixed incident cost and tests failures when validation does not transfer to science measurements. At one tested allocation, direct validation rejects the barrier family in 500/500 Ellis trials and 0/500 comparator trials. These are conditional model-discrimination results, not wormhole detections.
+
+![Fixed-cost validation power and physical-null rejection](figures/study-008/01-fixed-budget-validation.png)
+
+*Pointwise 95% Wilson intervals over 500 trials per point; all count data are synthetic. Methods share each trial. [Previous drift limit](reports/009-calibration-transfer-drift.md) · [Joint confidence construction](reports/008-joint-calibration-identification.md) · [Current literature context](references/validation-and-observability-2026-11-22.md).*
+
+## Original formal scientific report
 
 **[Read the PDF](output/pdf/calibration-limited-identification.pdf)** · **[Read the source manuscript](reports/007-calibration-limited-identification.md)** · **[Originality audit](references/novelty-audit-2026-11-10.md)**
 
 **[Shareable research poster and LinkedIn caption](outreach/linkedin/README.md)** — a portrait PNG, editable SVG and first-person summary drawn from the archived data.
 
-My latest report develops a bounded detector-error criterion and constructs competing models with identical recorded probabilities. In the selected finite-channel benchmark, error allowances of about **0.01224% in the low band** and **3.0943% in the broad band** suffice for explicit matches. These are achievable numerical witnesses under a flexible classification-error model, not measured detector tolerances or certified global minima. They show why more counts alone cannot resolve an exact observation-model ambiguity.
+My original report develops a bounded detector-error criterion and constructs competing models with identical recorded probabilities. In the selected finite-channel benchmark, error allowances of about **0.01224% in the low band** and **3.0943% in the broad band** suffice for explicit matches. These are achievable numerical witnesses under a flexible classification-error model, not measured detector tolerances or certified global minima. They show why more counts alone cannot resolve an exact observation-model ambiguity.
 
 The report contains an analytical proof, equations, likelihood histograms, error bars, calibration profiles, numerical audits and references. Known results are credited. I make no claim that the entire project is unprecedented or that physical wormhole existence is proved.
 

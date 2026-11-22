@@ -1,0 +1,10 @@
+{
+  "author": "Biswajit Jana",
+  "experiments": 29000,
+  "aggregate_count_slots": 3480000,
+  "decision_records": 116000,
+  "zero_budget_structural_count_slots": 96000,
+  "undetermined_records": 0,
+  "maximum_valid_null_rate": 0.002,
+  "minimum_drift_interval_coverage": 0.998
+}

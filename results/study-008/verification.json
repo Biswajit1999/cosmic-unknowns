@@ -1,0 +1,13 @@
+{
+  "experiments_replayed": 29000,
+  "count_slots_replayed": 3480000,
+  "solver_decisions_replayed": 2320,
+  "numerical_region_nesting_checks": 1160,
+  "rate_rows_checked": 232,
+  "drift_coverage_rows_checked": 58,
+  "histogram_bins_checked": 81,
+  "valid_null_rejections": 1,
+  "valid_null_paired_decision_records": 40000,
+  "hashes": "all verified",
+  "note": "Replay checks implementation consistency; analytical coverage is conditional on response transfer."
+}

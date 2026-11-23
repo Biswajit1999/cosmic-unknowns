@@ -1,0 +1,11 @@
+{
+  "hashes": "all verified",
+  "prediction_rows_checked": 504,
+  "direct_fit_replays": 32,
+  "heldout_rows_checked": 242,
+  "flexible_joint_refits": 2,
+  "parity_replays": 11,
+  "derivative_rows_checked": 16,
+  "nested_fit_rms": "nonincreasing in saved fits",
+  "note": "Refits reproduce local optimization witnesses; not certified global minima or confidence intervals."
+}

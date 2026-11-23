@@ -2,24 +2,64 @@
 
 ### What could distinguish a wormhole geometry—and what could support it?
 
-**Author: Biswajit Jana · Version 0.7.0 · 22 November 2026**
+**Author: Biswajit Jana · Version 0.8.0 · 23 November 2026**
 
 I investigate what wave signals can tell us about a prescribed wormhole, which ambiguities survive perfect measurements, and whether the required geometry can be supported by a specified matter model. This is a public working research project with reproducible equations, numerical data and scientific figures. Independent specialist review remains pending.
 
 ![Calculated Ellis spatial embedding beside massless and massive scalar transmission spectra](figures/study-010/00-research-overview.png)
 
-*The surface is a calculated equatorial spatial slice of the Ellis metric (β = 0), not a telescope view. The curves are generated model data. [Geometry and image derivation](reports/012-massive-probes-and-source-obstruction.md#6-scientific-image-what-the-readme-surface-represents) · [Data and figure provenance](results/study-010/README.md).*
+*The surface is a calculated equatorial spatial slice of the Ellis metric (β = 0), not a telescope view. The curves are the fixed-parameter Study 010 benchmark; the latest nuisance and stability tests below qualify its interpretation. [Geometry and image derivation](reports/012-massive-probes-and-source-obstruction.md#6-scientific-image-what-the-readme-surface-represents) · [Data and figure provenance](results/study-010/README.md).*
 
-**[Latest report](reports/012-massive-probes-and-source-obstruction.md)** · **[Data](results/study-010/README.md)** · **[Literature](references/massive-probes-2026-11-22.md)** · **[Research progress](RESEARCH_PROGRESS.md)** · **[Authorship](AUTHORS.md)**
+**[Signal robustness](reports/013-nuisance-confounding.md)** · **[Source and stability](reports/014-explicit-action-and-instability.md)** · **[Literature](references/identification-and-source-2026-11-23.md)** · **[Research progress](RESEARCH_PROGRESS.md)** · **[Authorship](AUTHORS.md)**
 
-## What the latest study establishes
+## Current findings
 
-| Question | Result | Scope |
+| Question | Latest result | Scope |
 |---|---|---|
-| Can different geometries share all massless scalar modes? | Yes: the conformal family in Study 009 has an identical radial operator. | Fixed curvature coupling and stated phase/field normalization. |
-| Does a known mass change the comparison? | Yes: the sampled massive spectra separate by up to **6.79 percentage points** from β = 0. | Fixed mass-scale product, frequency calibration and prescribed metric. |
-| Can one static, minimally coupled radial scalar support the nonzero-β metrics? | No: the required stress violates its necessary identity ρ + p_t = 0. | The explicitly stated P(χ,Z) matter class; not a universal matter exclusion. |
-| Have physical wormholes been demonstrated? | No. A viable source, coupled stability and observational evidence remain unresolved. | No claim of detection, construction, quantum-gravity solution or certified novelty. |
+| Can different metrics share massless scattering? | Yes, exactly for the constructed family and stated conventions. | Fixed-background scalar operator identity; Study 009. |
+| Is the massive-probe difference robust to uncertain parameters? | It shrinks substantially when mass and scale can vary. | Achieved bounded fits; not global optima or detection thresholds. |
+| Can an explicit action support the metrics? | Yes: a nonminimal scalar–tensor rewriting of the Ellis phantom action. | The action changes with β and retains the phantom dynamics. |
+| Is that source completion stable? | No: its mapped coupled perturbation has a growing mode. | This particular completion fails; other theories are not excluded. |
+| Have physical wormholes been established? | No. The broader existence and observational questions remain open. | No certified novelty, empirical detection or viable construction is claimed. |
+
+## The signal survives—but much less strongly after fitting
+
+I tested 16 alternatives with uncertain effective mass, frequency scale and a shared response model, using **2,878 new wave integrations**. Every fitted channel was reevaluated directly with the wave equation.
+
+| Truth geometry | Fixed-parameter maximum gap | Achieved two-mode fitted maximum gap |
+|---|---:|---:|
+| β = −0.2 | 6.790 percentage points | **0.767 percentage points** |
+| β = +0.2 | 4.797 percentage points | **0.131 percentage points** |
+
+The bounds are assumptions for a numerical stress test: frequency scale 0.95–1.05, mass-scale product 0.10–0.44 and each classification-error probability 0–0.03. They are not measured instrument specifications. The residuals remain nonzero and could still matter with adequate calibrated data; they are not significance levels.
+
+![How nuisance fitting reduces the fixed-parameter signal](figures/study-011/01-nuisance-residuals.png)
+
+*Noise-free model probabilities. Left: the RMS objective. Right: the maximum channel residual of that same fit, not a certified minimax optimum. [Report and assumptions](reports/013-nuisance-confounding.md) · [Direct fitted spectra](figures/study-011/02-fitted-spectra.png) · [Data](results/study-011/README.md).*
+
+An analytic identity explains the fit: at the symmetric geometry, the first-order effect of β on transmission is proportional to the effect of the mass-scale product ν:
+
+$$
+\left.\partial_\beta T_\ell\right|_{\beta=0}
+=-\frac{\pi\nu}{2}\left.\partial_\nu T_\ell\right|_{\beta=0}.
+$$
+
+Adding transmission modes retains this particular first-order ambiguity. Higher-order information and independent mass/scale measurements can still help. [Centered-parity derivation](reports/013-nuisance-confounding.md#2-exact-centered-parity) · [Sensitivity and quadratic-response figure](figures/study-011/03-local-confounding.png).
+
+## An explicit source fails the stability test
+
+I constructed an action with nonminimal curvature coupling h = F⁻² and scalar coefficient z = 2F⁻² + 6β²F⁻⁴. **All 140 metric-equation and 35 scalar-equation point checks pass at 70-digit precision.** This is an application of a known conformal field redefinition, not a new healthy matter mechanism.
+
+The action retains the phantom sign. Reproducing the published coupled Ellis master operator gives a growing mode with **γ ≈ 1.18197 c/a**, which maps into the transformed theory under the regular field redefinition. This completion therefore fails as a stable source.
+
+![Coupled unstable eigenfunction and convergence of its growth rate](figures/study-012/02-coupled-instability.png)
+
+*Published coupled master equation reproduced across twelve domain/grid choices; no nonlinear spacetime evolution is simulated. [Action, equations and stability argument](reports/014-explicit-action-and-instability.md) · [Coupling profiles](figures/study-012/01-action-and-ghost.png) · [Data](results/study-012/README.md).*
+
+These studies close two specific checks on the candidate: nuisance robustness and an explicit source completion. They do not complete the broader search for a viable wormhole. All **66 repository tests pass**; numerical replays, hashes, literature attribution and the remaining review requirements are documented in the reports.
+
+<details>
+<summary>Fixed-parameter benchmark and minimal-source exclusion: Studies 009–010</summary>
 
 ## A measurable difference within the model
 
@@ -58,7 +98,7 @@ This excludes that sole-source model whenever β ≠ 0. Other actions require th
 
 *Left: analytical channel thresholds; production frequencies lie above both. Right: required stress combination, with zero demanded by the excluded scalar class. [Source derivation](reports/012-massive-probes-and-source-obstruction.md#5-a-restriction-on-supporting-matter).*
 
-## How the calculation was checked
+## Study 010 numerical checks
 
 The solver includes logarithmic asymptotic phases and converts amplitude transmission to physical flux using T = (q_left/q_right)|t|². I tested boundary distance, expansion order, integration tolerance, the original field equation, reciprocity and known limiting cases.
 
@@ -73,10 +113,14 @@ The solver includes logarithmic asymptotic phases and converts amplitude transmi
 
 [See the numerical audit figure](figures/study-010/03-numerical-audit.png) and [verification record](results/study-010/verification.json). These are deterministic diagnostics, not confidence intervals or rigorous full-domain error bounds. Earlier counting studies retain their statistical error bars; this study does not invent error bars for exact model curves.
 
+</details>
+
 ## Research library
 
 | Research question | Report | Data / reading record |
 |---|---|---|
+| Nuisance confounding and centered parity | [Study 011](reports/013-nuisance-confounding.md) | [Data](results/study-011/README.md), [current literature](references/identification-and-source-2026-11-23.md) |
+| Explicit scalar–tensor action and inherited instability | [Study 012](reports/014-explicit-action-and-instability.md) | [Data and checks](results/study-012/README.md) |
 | Massive probes and a supporting-matter restriction | [Study 010](reports/012-massive-probes-and-source-obstruction.md) | [Data](results/study-010/README.md), [literature](references/massive-probes-2026-11-22.md) |
 | Different metrics, identical massless scattering | [Study 009](reports/011-conformal-scattering-nonuniqueness.md) | [Data](results/study-009/README.md), [literature](references/conformal-identification-2026-11-22.md) |
 | Independent calibration and fixed measurement cost | [Study 008](reports/010-validation-restores-identification.md) | [Data and intervals](results/study-008/README.md) |
@@ -86,25 +130,26 @@ The solver includes logarithmic asymptotic phases and converts amplitude transmi
 | An observer's hypothetical camera view | [Ray tracing and assumptions](reports/006-what-a-wormhole-could-look-like.md) | [Image provenance](figures/concept/README.md) |
 | Scalar transmission and probe stability | [Original study](reports/003-transmission-stability-study.md) | [Data](results/study-001/README.md), [errata and literature](references/literature-audit-2026-11-10.md) |
 
-## Reproduce the latest study
+## Reproduce the latest studies
 
 From the repository root on Windows:
 
 ```powershell
 py -m venv .venv
 .venv\Scripts\python.exe -m pip install -r requirements-lock.txt
-.venv\Scripts\python.exe scripts/run_massive_study.py
-.venv\Scripts\python.exe scripts/verify_massive_study.py
+.venv\Scripts\python.exe scripts/run_nuisance_study.py
+.venv\Scripts\python.exe scripts/verify_nuisance_study.py
+.venv\Scripts\python.exe scripts/scalar_tensor_completion.py
 .venv\Scripts\python.exe -m unittest discover -s tests -v
 ```
 
-On Linux/macOS, create the environment with `python3 -m venv .venv` and use `.venv/bin/python`. The tested environment is recorded in [design.json](results/study-010/design.json). The runner saves CSV data, PNG/SVG figures and hashes. [Detailed column definitions and numerical limitations](results/study-010/README.md).
+On Linux/macOS, create the environment with `python3 -m venv .venv` and use `.venv/bin/python`. The tested fit environment is recorded in [design.json](results/study-011/design.json). The scripts save CSV data, PNG/SVG figures and hashes. [Fit data guide](results/study-011/README.md) · [Source and stability data guide](results/study-012/README.md).
 
 ## The next discovery tests
 
-1. **Does the spectral difference survive unknown parameters?** Allow uncertain mass, scale, frequency calibration and detector response before claiming identification.
-2. **Which explicit matter action survives the source test?** Verify every background equation, then analyze the coupled metric and matter perturbations.
-3. **What could actually be measured?** Specify a physical source and detector for the proposed probe, or a calibrated clock/distance observable. A scalar proxy is not automatically a neutrino or photon experiment.
+1. **Constrain the nuisance parameters independently.** Specify a physical source/detector, mass-scale constraints and finite-data calibration before making a detection claim.
+2. **Test a genuinely different supporting theory.** An invertible rewriting of the rejected phantom action cannot erase its unstable mode.
+3. **Obtain an independent specialist audit.** Check the derivations, frame/measurement conventions and prior literature before claiming an original discovery or submitting a paper.
 
 These are open tasks. Increasing data density alone does not resolve the physical assumptions. [Current progress and remaining checks](RESEARCH_PROGRESS.md).
 

@@ -1,0 +1,17 @@
+{
+  "figures/study-011/01-nuisance-residuals.png": "006a4a94ab175afbb5948bf53320705a9776d3c5f417a6398005b9a48b19b581",
+  "figures/study-011/01-nuisance-residuals.svg": "c7d641f2ce8f629ffae40432a6a462dc5f77da5b02910cff49c4df56ac65a9f1",
+  "figures/study-011/02-fitted-spectra.png": "814aa464cd46a2c23a8769c20f0821b321f34afc023efc18ab1088bb26e02967",
+  "figures/study-011/02-fitted-spectra.svg": "f81b084d680eb956a1a88bc1ded2c99e6223a9d0c1032fe1e8e9f63572ce7f71",
+  "figures/study-011/03-local-confounding.png": "cecb140e030a3c05ed8c3f37af786cc3b1e9b3c60971f24469f29cf8924fa571",
+  "figures/study-011/03-local-confounding.svg": "3400be5c9efc3e64fa14200f70222813ae55b21d82bfe8e480effb020f33c91a",
+  "results/study-011/derivatives.csv": "236838008acf186710934e5060dacc38733707d678f3d37b378969ef20b0a346",
+  "results/study-011/design.json": "6caf9001f5d6f20ff747b181644f8c1765e6eb4c743b619fc3d85139366ddfaa",
+  "results/study-011/fits.csv": "98f3a2b423f80739148d5fd7c971b29b829fa27839d4f41dc7622dd00d0943ce",
+  "results/study-011/heldout.csv": "84ada312031407850b62dd6c201fa52db6d689e3bfc1866c235e27c88b5b7e2d",
+  "results/study-011/optimizer_starts.csv": "4083c02dd79628f45ee4f74b26442a8d4217db37099189ff173b006456c27ecc",
+  "results/study-011/parity.csv": "5abd2233a2110a422503eca6813d0707994eeda794bc96bbc3996c95fd2bf032",
+  "results/study-011/predictions.csv": "9232906242b2913b25c431c72bd5387cb47d0195e13be465ce124bf36f1c91f8",
+  "results/study-011/summary.json": "01fce31f77d18c044b410e0347f2e613cc8776ffe19bf39dd9998441d9fbc879",
+  "results/study-011/templates.csv": "15ff7d136bcec884d4820c3a44a638538fbded4d1b5c9eb464f0648642c88b6f"
+}

@@ -1,0 +1,69 @@
+{
+  "author": "Biswajit Jana",
+  "date": "2026-11-23",
+  "bounds": {
+    "scale": [
+      0.95,
+      1.05
+    ],
+    "mass": [
+      0.1,
+      0.44
+    ],
+    "false_positive": [
+      0.0,
+      0.03
+    ],
+    "false_negative": [
+      0.0,
+      0.03
+    ]
+  },
+  "channels_per_mode": 21,
+  "K": [
+    0.52,
+    0.56,
+    0.6,
+    0.64,
+    0.68,
+    0.72,
+    0.76,
+    0.8,
+    0.8400000000000001,
+    0.88,
+    0.9523809523809524,
+    1.0571428571428572,
+    1.161904761904762,
+    1.2666666666666666,
+    1.3714285714285714,
+    1.4761904761904763,
+    1.580952380952381,
+    1.6857142857142857,
+    1.7904761904761906,
+    1.8952380952380952,
+    2.0
+  ],
+  "truth_betas": [
+    -0.2,
+    0.2
+  ],
+  "truth_mass": 0.3,
+  "response": "b+(1-b-c)*T; common across all frequencies and retained modes",
+  "objective": "Unweighted mean squared probability residual; multistart local optimization; no likelihood or global certificate",
+  "data_kind": "Noise-free model probabilities; no confidence intervals or astronomical observations",
+  "environment": {
+    "python": "3.14.8",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1"
+  },
+  "parent_hashes": {
+    "results/study-010/spectra.csv": "bcacce2086467f4055d12b5e16dbf7511497809d6a6f215df1bc1eb7b94cb727"
+  },
+  "source_hash_normalization": "CRLF normalized to LF",
+  "source_hashes": {
+    "scripts/nuisance_identification.py": "4d029ead8d80a701fddc31ae761e55cbe7f8f2db2dc663ec9e566bf1d9ccff5b",
+    "scripts/run_nuisance_study.py": "cd5fa2351a7b8d85e6234d47798e0401d66079ffbea5d679ece270a5de80f139",
+    "scripts/massive_conformal.py": "e8c0afd8236f8e063883e4d6323d1c119442b27dc53dfa335b391327828b4033",
+    "scripts/conformal_scattering.py": "18994db6ee736baab780522a489e4573bd9b5efc30ec6d0a6ec0652cb322bf65"
+  }
+}

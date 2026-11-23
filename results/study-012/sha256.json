@@ -1,0 +1,10 @@
+{
+  "figures/study-012/01-action-and-ghost.png": "e3c545fa71b0e19e7cf09b67175b5b3f963f07878d827dfcd6e08c77972f0c96",
+  "figures/study-012/01-action-and-ghost.svg": "0c7a439396711d04759b944457f8b60cd6d46baf4d95c5dd93ae1c2b6fb6985d",
+  "figures/study-012/02-coupled-instability.png": "3c97ed1aed617df0a640fc0c93ce42518aa8a45b69949c8d4af1ba6477bbbf74",
+  "figures/study-012/02-coupled-instability.svg": "5e3530e402674ae8583921a37c33321775f8493e33974332fc8a70342edbdd60",
+  "results/study-012/couplings.csv": "6a8988a6c9c27c78c738df07957bfad064c116c555a529451ce1dbac28dc99b2",
+  "results/study-012/instability.csv": "9752ef76945d36c63151a46d7d40127bacbd9ede5b27f104e7900716d406bb82",
+  "results/study-012/unstable_mode.csv": "b8ca0a614ceb3469b2941ff82fb5e471930637b3843bf2da967b608c3eab246e",
+  "results/study-012/verification.json": "975aeaf8ed9f360e8ca981ebfbbe2767ec93a263b097455b25ca0ae90ab6e654"
+}

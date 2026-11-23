@@ -1,0 +1,21 @@
+{
+  "figures/study-013/01-magnetic-support.png": "18dff4741bdc5f086a11143842390d4bc6aeb1a98cdd3b14a8a4f4616f9ebfb9",
+  "figures/study-013/01-magnetic-support.svg": "deee4f171cc4c8c308ddb1b8e32b998cdc1374b28564e456194fdd17686b72b2",
+  "figures/study-013/02-equilibrium.png": "04c16c248c0a81c48081d1990b4e34202a0e82527fb143b0986ee5c7d628728e",
+  "figures/study-013/02-equilibrium.svg": "0ccf783684b04a07113fe0db71f57e6c0da9af96c5f06e01d07cc77dbf2c7d45",
+  "figures/study-013/03-tail-and-numerics.png": "b160db859b792886c4235c392bec19ca697cc8553837e60de3ecc4dd51c0a141",
+  "figures/study-013/03-tail-and-numerics.svg": "5eb26c26aae4b41c781f2b5d3fc6e4dac5c8c8397ab77ffcd1b46e9cce78bd83",
+  "figures/study-013/04-scale-checks.png": "91b755e1b452557a9a3dd2d7d4385a595d3f1254c36a5697fe7bb183773509af",
+  "figures/study-013/04-scale-checks.svg": "3d2dcfd493182d60da175cf53edcda5881b91b8e8188f58b9b3cee3bac669af5",
+  "results/study-013/energy_landscapes.csv": "cfdaad74892f2384489ffdb554a1503cc1ceba9bbb655425e43ac364d3d1a9e9",
+  "results/study-013/equilibrium.csv": "96871198cd74422130d071f742e04f83c60c620a35e44d8d8e16a80ca916ee59",
+  "results/study-013/field_length_audit.csv": "5f209d24797d526b4ee8366aea8da59522cf41ced85fdaf2ee6b319074232321",
+  "results/study-013/field_lengths.csv": "dcb9cf1ed8f4c9e2ccc5653b08f772e2d8c06bb7ff3ca732239f70c8df70423c",
+  "results/study-013/field_lines.csv": "9e84cb5184d6bbc26c8e49721306191762fc975f29e96c30efc8062215151a05",
+  "results/study-013/quadrature_audit.csv": "c36e35c1fbcacabcb52e17d7817776ec3bef2dc730919fc8b2524b1d8b3329b1",
+  "results/study-013/scale_diagnostics.csv": "0853865ba5edad2ee56afe2f6b057da70869f88698cd167c506914288a18bf2a",
+  "results/study-013/small_separation.csv": "f58e117cabe3862eb2f28638930399877f815040a2026ce8f375280c1c307e83",
+  "results/study-013/small_separation_audit.csv": "65701eb9a514f9158c1e73f85aad470353d9a67f92d9f94f0d30e553d1e7500e",
+  "results/study-013/summary.json": "5f249e7d8366a8ce80e68be05a627f2b3ddcffbcec986fe32a0a13648553d81f",
+  "results/study-013/tail_omission.csv": "feb3d3287745784b995e901d702c23aa7bc5da4d23764eab4fd3bc37d7e7f035"
+}

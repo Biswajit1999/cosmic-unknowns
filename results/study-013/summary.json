@@ -1,0 +1,21 @@
+{
+  "author": "Biswajit Jana",
+  "date": "2026-11-23",
+  "source": "arXiv:1807.04726v3 Eq.5.47",
+  "model": "Leading reduced energy with point-monopole flat exterior; no full field equations solved",
+  "outer_order": 512,
+  "inner_order": 512,
+  "separation_points": 241,
+  "large_separation_ratio": 2.3471178599977436,
+  "long_path_coefficient": 2.7603459963009462,
+  "short_separation_log_coefficient": 3.6804613284012615,
+  "max_field_length_relative_difference": 1.6209256159527285e-14,
+  "max_refined_y_relative_difference": 7.771561172376096e-15,
+  "max_stationarity_residual": 2.7922109069322687e-14,
+  "min_curvature": 7.021130188630844e-10,
+  "max_tail_coefficient_refinement": 2.2922983000661645e-06,
+  "source_hashes": {
+    "scripts/magnetic_energy.py": "18e0eaccd2c22d7aced488a6f764a1a062b398159e8cda159fd514616aab631b",
+    "scripts/run_magnetic_study.py": "98a86b2960541cd245843aee6ff5c079c7abe1626f83916aa4e694ce4fe0eac9"
+  }
+}

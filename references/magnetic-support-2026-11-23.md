@@ -1,0 +1,17 @@
+# Magnetic support: reading and reproducibility record
+
+**Author: Biswajit Jana · Checked 23 November 2026**
+
+| Primary source | Version and reading depth | Use in Study 013 |
+|---|---|---|
+| Maldacena, Milekhin and Popov, *Traversable wormholes in four dimensions*, [1807.04726v3](https://arxiv.org/html/1807.04726v3) | Latest version verified through [version history](https://arxiv.org/abs/1807.04726): 3 November 2020. Read §§2.1–2.2, 3–5.6, the start of §6.1, and Appendix D; selected Appendix C/E passages. Not every appendix or full interacting stress calculation independently derived. | Implement Eq. (5.47), reproduce the finite-separation minimum and published approximate 2.35 limiting ratio. Derive equivalent prolate arc-length integration, monotonic-root argument and leading tail correction locally. The paper already supplies the construction and equilibrium claim. |
+| Freivogel, Fumagalli and Tomašević, *How traversable is a traversable wormhole?*, [2606.12528v2](https://arxiv.org/html/2606.12528v2) | Latest version checked: 14 September 2026. Abstract/introduction and selected neutral-scalar matching setup inspected. Full matching and time-dependent calculation not reproduced. | Defines the next distinct scattering task. Scalar and fermion channels and finite collection time must be treated separately. Ambient returns/boundary treatment matter. No spectra from this paper are presented as local results. |
+| Mondal and Sadhukhan, *Echoes of the Maldacena-Milekhin-Popov traversable wormhole*, [2511.22671v2](https://arxiv.org/abs/2511.22671v2) | Latest version history and abstract rechecked: 16 September 2026. Full numerical analysis not reproduced in this study; earlier selected passages recorded in the [12 November audit](research-frontier-2026-11-12.md). | A finite-frequency resonance is insufficient evidence of an accessible echo. Time scales and the v2 correction to v1 must remain explicit in future work. |
+
+The field-line implementation is derived from the cosine-difference relation and dimensionless Euclidean geometry. This avoids relying on a transcribed coordinate expression without checking its units. Independent polar-angle integration checks the result. No claim is made to have independently reproduced all Einstein equations, quantum stress renormalization or coupled stability from MMP.
+
+The fixed-g, large-charge conditions in MMP are asymptotic restrictions, not calibrated numerical cutoffs. The additional stress-fluctuation limitation in §5.5 is stronger than the simple Schwarzian ratio plotted here and remains an explicit missing physical check. The reduced-model minimum must not be advertised as a controlled solution for every plotted separation.
+
+Targeted searches included magnetic-wormhole separation, logarithmic corrections and the approximate large-separation ratio. These searches returned much irrelevant material and are insufficient for a novelty decision; no secondary-source scientific assertion was adopted. The local proof and asymptotic analysis are provided with derivations, not described as first discoveries. The literature review is scoped, not exhaustive.
+
+Older reading records describe the depth reached on their dates. This record supersedes their abstract-only status for the MMP passages listed above, without changing what was actually read in earlier studies. Independent specialist review remains pending.

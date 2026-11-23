@@ -2,15 +2,15 @@
 
 ### What could distinguish a wormhole geometry—and what could support it?
 
-**Author: Biswajit Jana · Version 0.8.0 · 23 November 2026**
+**Author: Biswajit Jana · Version 0.9.0 · 23 November 2026**
 
 I investigate what wave signals can tell us about a prescribed wormhole, which ambiguities survive perfect measurements, and whether the required geometry can be supported by a specified matter model. This is a public working research project with reproducible equations, numerical data and scientific figures. Independent specialist review remains pending.
 
-![Calculated Ellis spatial embedding beside massless and massive scalar transmission spectra](figures/study-010/00-research-overview.png)
+![Calculated exterior magnetic field lines and quantum-support energy minima](figures/study-013/01-magnetic-support.png)
 
-*The surface is a calculated equatorial spatial slice of the Ellis metric (β = 0), not a telescope view. The curves are the fixed-parameter Study 010 benchmark; the latest nuisance and stability tests below qualify its interpretation. [Geometry and image derivation](reports/012-massive-probes-and-source-obstruction.md#6-scientific-image-what-the-readme-surface-represents) · [Data and figure provenance](results/study-010/README.md).*
+*Calculated field lines and the reduced energy of the published magnetic quantum-support model. The interior handle is not drawn; energy curves are normalized separately. This is a different source mechanism from the earlier Ellis phantom model. [Equations and scope](reports/015-magnetic-support-and-separation.md) · [Figure data](results/study-013/README.md) · [Earlier Ellis spatial visualization](figures/study-010/00-research-overview.png).*
 
-**[Signal robustness](reports/013-nuisance-confounding.md)** · **[Source and stability](reports/014-explicit-action-and-instability.md)** · **[Literature](references/identification-and-source-2026-11-23.md)** · **[Research progress](RESEARCH_PROGRESS.md)** · **[Authorship](AUTHORS.md)**
+**[Magnetic support](reports/015-magnetic-support-and-separation.md)** · **[Signal robustness](reports/013-nuisance-confounding.md)** · **[Source and stability](reports/014-explicit-action-and-instability.md)** · **[Literature](references/magnetic-support-2026-11-23.md)** · **[Research progress](RESEARCH_PROGRESS.md)** · **[Authorship](AUTHORS.md)**
 
 ## Current findings
 
@@ -20,7 +20,22 @@ I investigate what wave signals can tell us about a prescribed wormhole, which a
 | Is the massive-probe difference robust to uncertain parameters? | It shrinks substantially when mass and scale can vary. | Achieved bounded fits; not global optima or detection thresholds. |
 | Can an explicit action support the metrics? | Yes: a nonminimal scalar–tensor rewriting of the Ellis phantom action. | The action changes with β and retains the phantom dynamics. |
 | Is that source completion stable? | No: its mapped coupled perturbation has a growing mode. | This particular completion fails; other theories are not excluded. |
+| Does a different quantum-support model have an energy minimum? | Yes: the published MMP reduced functional has a unique minimum; its large-separation travel-time ratio is reproduced as 2.34712. | One equilibrium variable; full stability and physical control remain separate. |
 | Have physical wormholes been established? | No. The broader existence and observational questions remain open. | No certified novelty, empirical detection or viable construction is claimed. |
+
+## A different source: magnetic fields and quantum fermion energy
+
+The previous explicit source retains a phantom instability. I have now reproduced the **finite-separation reduced energy** of [Maldacena, Milekhin and Popov](https://arxiv.org/html/1807.04726v3), using integrated magnetic field-line lengths rather than reusing the Ellis geometry.
+
+The study adds **241 equilibrium calculations**, a proof of a unique minimum within that reduced model, and a checked large-separation travel-time ratio of **2.34711786**. The approximately 2.35 result is established prior work, reproduced here. The throat remains the slower route in this approximation.
+
+![Magnetic equilibrium and travel-time ratios](figures/study-013/02-equilibrium.png)
+
+*Formal reduced-model curves, not observed travel times or a stability certificate. The large-separation limit eventually leaves the controlled regime at fixed charge. [Report](reports/015-magnetic-support-and-separation.md) · [Ten datasets and numerical checks](results/study-013/README.md).*
+
+The exterior long-path tail also makes a naive small-separation Taylor expansion fail. I derive a leading **s ln(1/s)** correction, check it with adaptive quadrature, and bound the effect of deleting poorly confined paths. These additions are supplied with derivations, without claiming priority. [Tail analysis and audits](figures/study-013/03-tail-and-numerics.png) · [Necessary physical scale checks](figures/study-013/04-scale-checks.png).
+
+An energy minimum alone does not establish a viable wormhole. A full quantum-stress calculation, coupled stability, formation, and a physical observation model remain outstanding. All **74 repository tests pass**. The next defined calculation is finite-time, finite-bandwidth propagation on this magnetic background with energy and control constraints.
 
 ## The signal survives—but much less strongly after fitting
 
@@ -56,7 +71,7 @@ The action retains the phantom sign. Reproducing the published coupled Ellis mas
 
 *Published coupled master equation reproduced across twelve domain/grid choices; no nonlinear spacetime evolution is simulated. [Action, equations and stability argument](reports/014-explicit-action-and-instability.md) · [Coupling profiles](figures/study-012/01-action-and-ghost.png) · [Data](results/study-012/README.md).*
 
-These studies close two specific checks on the candidate: nuisance robustness and an explicit source completion. They do not complete the broader search for a viable wormhole. All **66 repository tests pass**; numerical replays, hashes, literature attribution and the remaining review requirements are documented in the reports.
+These studies close two specific checks on the candidate: nuisance robustness and an explicit source completion. They do not complete the broader search for a viable wormhole. Those studies passed their **66-test suite**; numerical replays, hashes, literature attribution and the remaining review requirements are documented in the reports.
 
 <details>
 <summary>Fixed-parameter benchmark and minimal-source exclusion: Studies 009–010</summary>
@@ -119,6 +134,7 @@ The solver includes logarithmic asymptotic phases and converts amplitude transmi
 
 | Research question | Report | Data / reading record |
 |---|---|---|
+| Magnetic quantum support and long-path sensitivity | [Study 013](reports/015-magnetic-support-and-separation.md) | [Data](results/study-013/README.md), [literature](references/magnetic-support-2026-11-23.md) |
 | Nuisance confounding and centered parity | [Study 011](reports/013-nuisance-confounding.md) | [Data](results/study-011/README.md), [current literature](references/identification-and-source-2026-11-23.md) |
 | Explicit scalar–tensor action and inherited instability | [Study 012](reports/014-explicit-action-and-instability.md) | [Data and checks](results/study-012/README.md) |
 | Massive probes and a supporting-matter restriction | [Study 010](reports/012-massive-probes-and-source-obstruction.md) | [Data](results/study-010/README.md), [literature](references/massive-probes-2026-11-22.md) |
@@ -137,6 +153,8 @@ From the repository root on Windows:
 ```powershell
 py -m venv .venv
 .venv\Scripts\python.exe -m pip install -r requirements-lock.txt
+.venv\Scripts\python.exe scripts/run_magnetic_study.py
+.venv\Scripts\python.exe scripts/verify_magnetic_study.py
 .venv\Scripts\python.exe scripts/run_nuisance_study.py
 .venv\Scripts\python.exe scripts/verify_nuisance_study.py
 .venv\Scripts\python.exe scripts/scalar_tensor_completion.py

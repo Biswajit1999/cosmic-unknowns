@@ -1,0 +1,19 @@
+{
+  "author": "Biswajit Jana",
+  "date": "2026-11-23",
+  "artifact_hashes_checked": 19,
+  "equilibrium_replays": 241,
+  "replay_order": [
+    1024,
+    1024
+  ],
+  "maximum_relative_y_replay": 7.993605777301127e-15,
+  "independent_energy_minimizations": 13,
+  "maximum_minimizer_difference": 4.284672239229792e-08,
+  "field_coordinate_rows": 3606,
+  "maximum_field_label_residual": 1.8207657603852567e-14,
+  "omission_bound_checks": 183,
+  "scale_rows_replayed": 723,
+  "independent_angle_integrals": 9,
+  "conclusion": "Reduced-model checks passed; no full stability or observation claim"
+}

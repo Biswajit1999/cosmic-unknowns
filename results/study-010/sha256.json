@@ -1,0 +1,17 @@
+{
+  "figures/study-010/00-research-overview.png": "d3438a0a0b3b54aab7a7620a9cc663bf5b88f69b270936f3efa7203d67ff351b",
+  "figures/study-010/00-research-overview.svg": "ff24466e51cc8abfd3ee3bc9db130c3aeee9fa550f8cfb94118e2e0a356b37bb",
+  "figures/study-010/01-massive-discrimination.png": "09ed76382bc1d451510a061993c047995288023ee95528d948e9349ee23aab4e",
+  "figures/study-010/01-massive-discrimination.svg": "d7669dc9b0ed3229e8348fd3070440d380afba1a6e0984e417a8f29a0e2cff6d",
+  "figures/study-010/02-thresholds-and-matter.png": "86758415fcdae785054f065ebc46acd7077e92056c519e123f5e906109c0ce6e",
+  "figures/study-010/02-thresholds-and-matter.svg": "38366f12cfcbdbd7e74d1e7b8c3194ef75d1b3ab3216dd046f1aca48a9878c92",
+  "figures/study-010/03-numerical-audit.png": "0a7ecedad15d61637c96e9a12c24583bdebbe4d0149d9044822976369effdcf9",
+  "figures/study-010/03-numerical-audit.svg": "e7808d61d75b106e446d0a386ab474c397acd0cebbd282f4f4f8adb46bf2e1ee",
+  "results/study-010/convergence.csv": "7a00e223a5cfa49db5610e91418941aefd17930b4edcda18f0d5e46e09786ec8",
+  "results/study-010/design.json": "2e7ea192e0a79c110da4e386fafd917482b05ad5c04d7d00b88f49fb56623569",
+  "results/study-010/embedding_meridian.csv": "37dfecb9a7572bf694192aec8b0e26bfeb5c5b9a2e3dd6aee2a75779ed25943b",
+  "results/study-010/source_profiles.csv": "d667db2010edf768fc95fef4749b14595114dd9fd8844f93fd79b36deea2c8ca",
+  "results/study-010/spectra.csv": "bcacce2086467f4055d12b5e16dbf7511497809d6a6f215df1bc1eb7b94cb727",
+  "results/study-010/summary.json": "3a626d7eb92ed7b47365be68e217ec900222b73970270d776e2cdaf49bacb2ef",
+  "results/study-010/thresholds.csv": "8d7506729175026cfd3c423dc33e45920b6b6dd79118ca12c6cc551e6b880de0"
+}

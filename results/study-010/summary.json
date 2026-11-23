@@ -1,0 +1,16 @@
+{
+  "author": "Biswajit Jana",
+  "spectral_integrations": 972,
+  "audit_comparisons": 108,
+  "maximum_flux_error": 1.247250969171887e-09,
+  "maximum_tail_current_error": 8.881784197001252e-16,
+  "maximum_audit_amplitude_difference": 4.081791549347261e-09,
+  "maximum_transmission_probability_gap": {
+    "ell": 0,
+    "beta": -0.2,
+    "k": 0.67,
+    "delta_T": -0.06793974205228165
+  },
+  "maximum_reciprocity_difference": 2.942173354470648e-11,
+  "source_identity_error": 1.3322676295501878e-15
+}

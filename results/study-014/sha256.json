@@ -1,0 +1,21 @@
+{
+  "figures/study-014/01-bandwidth.png": "047cc3611e4a4ababd0a3f699c07c6fb24808d25fa1d8cee0665dfee646e6006",
+  "figures/study-014/01-bandwidth.svg": "16c3faebd91d03bbc1f33da7c270b68ad41cd77f6435c4ed7662f511a3b645c1",
+  "figures/study-014/02-collection-time.png": "4046e52fb331085f04dbce8157018a0f18dd6c1d2854cfc0bc515186f54a356f",
+  "figures/study-014/02-collection-time.svg": "d1761115beaa481fe17a704dfbcd78ab61fdcfcddd06dea8fb5e2ec321db5595",
+  "figures/study-014/03-experiment-constraints.png": "453cd7fdc2a17c4458bba947cf45e046e68e14b36fb8bc884abab65722d1b71e",
+  "figures/study-014/03-experiment-constraints.svg": "e48ce87c9fafdf99d97ad6ffc035704011ee76cad4dfddca89cd9e78795b26c1",
+  "results/study-014/bandwidth.csv": "85ffc29ca245bfd8eff8f2c07f1ad607f6322f388f93b7af7d1e7f76183ac207",
+  "results/study-014/bandwidth_audit.csv": "43a23a83e785598eb1a90b5b370d4fa5b5db20584ac947afe0ca67c8bb0f9c97",
+  "results/study-014/collection.csv": "82dbe5ba0df8463f5787f14e9ba33b2d845b872ff7bd3a5d18bbdfd6b8af96e4",
+  "results/study-014/compact_pulse_audit.csv": "de45b26738776319b97136edd348afd1c0deed81f669ec18e5a0663508d4d651",
+  "results/study-014/delay_scaling.csv": "272b23031b7d237ad264f3d144b2697753f7411796c20f2076c4fafc9703a559",
+  "results/study-014/matching_audit.csv": "42c897bd53049ef57b2b45fa244452168e88b7e4ba6f1619d3ba421e16053ba2",
+  "results/study-014/parameter_scan.csv": "4c34a5d3cdaca4407cc7892be585c2958df8d18b99d179f08c1e633237f2e768",
+  "results/study-014/pulse_profile.csv": "3b6cf15168df91ca05a8b48fb64b7a6bdb00606346b61146ea74a5cad753ee72",
+  "results/study-014/resolved_peak.csv": "c154348b9c5e4a9c45acb3c71495de978b6f9ac146a70070f083805ab42bfd16",
+  "results/study-014/scenario_audit.csv": "17be55f238e5e7e02700ba0f10c21c916490ee33cb1c87bed688329c1a8ba67f",
+  "results/study-014/spectra.csv": "5894b48fad6fa136b1633a76c746f5d2f1f98385cc6f5653cb2e86cfadd09f85",
+  "results/study-014/summary.json": "ef0db0b4a44ae165f05aee4a5b119bed7fc992d0e4d95e6e0578f8491fd3b44b",
+  "results/study-014/time_audit.csv": "5d6a0a05f81ceb2d4d80ab3adebc6414b8dfb9ae2066fb9bac41eace700ca4ca"
+}

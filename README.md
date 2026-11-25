@@ -2,7 +2,7 @@
 
 ### What could distinguish a wormhole geometry—and what could support it?
 
-**Author: Biswajit Jana · Version 0.9.0 · 23 November 2026**
+**Author: Biswajit Jana · Version 0.10.0 · 25 November 2026**
 
 I investigate what wave signals can tell us about a prescribed wormhole, which ambiguities survive perfect measurements, and whether the required geometry can be supported by a specified matter model. This is a public working research project with reproducible equations, numerical data and scientific figures. Independent specialist review remains pending.
 
@@ -10,7 +10,7 @@ I investigate what wave signals can tell us about a prescribed wormhole, which a
 
 *Calculated field lines and the reduced energy of the published magnetic quantum-support model. The interior handle is not drawn; energy curves are normalized separately. This is a different source mechanism from the earlier Ellis phantom model. [Equations and scope](reports/015-magnetic-support-and-separation.md) · [Figure data](results/study-013/README.md) · [Earlier Ellis spatial visualization](figures/study-010/00-research-overview.png).*
 
-**[Magnetic support](reports/015-magnetic-support-and-separation.md)** · **[Signal robustness](reports/013-nuisance-confounding.md)** · **[Source and stability](reports/014-explicit-action-and-instability.md)** · **[Literature](references/magnetic-support-2026-11-23.md)** · **[Research progress](RESEARCH_PROGRESS.md)** · **[Authorship](AUTHORS.md)**
+**[Finite signals](reports/016-magnetic-finite-signals.md)** · **[Magnetic support](reports/015-magnetic-support-and-separation.md)** · **[Signal robustness](reports/013-nuisance-confounding.md)** · **[Source and stability](reports/014-explicit-action-and-instability.md)** · **[Literature](references/magnetic-signals-2026-11-24.md)** · **[Research progress](RESEARCH_PROGRESS.md)** · **[Authorship](AUTHORS.md)**
 
 ## Current findings
 
@@ -21,7 +21,22 @@ I investigate what wave signals can tell us about a prescribed wormhole, which a
 | Can an explicit action support the metrics? | Yes: a nonminimal scalar–tensor rewriting of the Ellis phantom action. | The action changes with β and retains the phantom dynamics. |
 | Is that source completion stable? | No: its mapped coupled perturbation has a growing mode. | This particular completion fails; other theories are not excluded. |
 | Does a different quantum-support model have an energy minimum? | Yes: the published MMP reduced functional has a unique minimum; its large-separation travel-time ratio is reproduced as 2.34712. | One equilibrium variable; full stability and physical control remain separate. |
+| Does a perfect transmission resonance guarantee a useful pulse? | No. Bandwidth, localization and collection time impose distinct restrictions. | Neutral scalar, conditional low-frequency matching; Study 014. |
 | Have physical wormholes been established? | No. The broader existence and observational questions remain open. | No certified novelty, empirical detection or viable construction is claimed. |
+
+## Finite signals: what a resonance actually delivers
+
+I have reproduced the published magnetic neutral-scalar response and evaluated **303 Gaussian bandwidth cases**. The analysis now includes delayed pulses, finite collection times, and an extension beyond Gaussian packets: **within the approximation with fixed mouth coefficients, all normalized pulses shorter than one round trip have the same eventual transmission, regardless of shape**. This follows from their non-overlapping delayed copies; it is not a new physical-wormhole existence theorem.
+
+![Bandwidth averages and a resolved transmission resonance](figures/study-014/01-bandwidth.png)
+
+*Calculated energy fractions. Narrow, extended preparations can approach a resonance's perfect transmission; localized broad-band pulses have a much smaller eventual fraction. [Derivations and assumptions](reports/016-magnetic-finite-signals.md) · [Twelve datasets](results/study-014/README.md).*
+
+In an illustrative energy-limited case, only **1.895 × 10⁻¹⁰** of the incident radial energy eventually transmits, and collecting 90% of that small fraction takes about **3.038 billion pulses** in the static conditional model. Exterior motion over that interval requires additional modeling. These are not observational forecasts, proof of instability or a physical exclusion theorem.
+
+![Delayed pulses and collection time](figures/study-014/02-collection-time.png)
+
+Independent matching, frequency-domain and time-domain checks accompany the calculations. All **84 repository tests pass**. [Packet localization and motion constraints](figures/study-014/03-experiment-constraints.png) · [Numerical verification](results/study-014/verification.json) · [Research status](RESEARCH_PROGRESS.md).
 
 ## A different source: magnetic fields and quantum fermion energy
 
@@ -35,7 +50,7 @@ The study adds **241 equilibrium calculations**, a proof of a unique minimum wit
 
 The exterior long-path tail also makes a naive small-separation Taylor expansion fail. I derive a leading **s ln(1/s)** correction, check it with adaptive quadrature, and bound the effect of deleting poorly confined paths. These additions are supplied with derivations, without claiming priority. [Tail analysis and audits](figures/study-013/03-tail-and-numerics.png) · [Necessary physical scale checks](figures/study-013/04-scale-checks.png).
 
-An energy minimum alone does not establish a viable wormhole. A full quantum-stress calculation, coupled stability, formation, and a physical observation model remain outstanding. All **74 repository tests pass**. The next defined calculation is finite-time, finite-bandwidth propagation on this magnetic background with energy and control constraints.
+An energy minimum alone does not establish a viable wormhole. A full quantum-stress calculation, coupled stability, formation, and a physical observation model remain outstanding. Study 013 passed its **74-test suite**. Study 014 now supplies the conditional finite-signal calculation; the full physical experiment remains unresolved.
 
 ## The signal survives—but much less strongly after fitting
 
@@ -134,6 +149,7 @@ The solver includes logarithmic asymptotic phases and converts amplitude transmi
 
 | Research question | Report | Data / reading record |
 |---|---|---|
+| Finite magnetic signals and pulse-shape restriction | [Study 014](reports/016-magnetic-finite-signals.md) | [Data](results/study-014/README.md), [literature](references/magnetic-signals-2026-11-24.md) |
 | Magnetic quantum support and long-path sensitivity | [Study 013](reports/015-magnetic-support-and-separation.md) | [Data](results/study-013/README.md), [literature](references/magnetic-support-2026-11-23.md) |
 | Nuisance confounding and centered parity | [Study 011](reports/013-nuisance-confounding.md) | [Data](results/study-011/README.md), [current literature](references/identification-and-source-2026-11-23.md) |
 | Explicit scalar–tensor action and inherited instability | [Study 012](reports/014-explicit-action-and-instability.md) | [Data and checks](results/study-012/README.md) |
@@ -153,6 +169,8 @@ From the repository root on Windows:
 ```powershell
 py -m venv .venv
 .venv\Scripts\python.exe -m pip install -r requirements-lock.txt
+.venv\Scripts\python.exe scripts/run_magnetic_signals.py
+.venv\Scripts\python.exe scripts/verify_magnetic_signals.py
 .venv\Scripts\python.exe scripts/run_magnetic_study.py
 .venv\Scripts\python.exe scripts/verify_magnetic_study.py
 .venv\Scripts\python.exe scripts/run_nuisance_study.py

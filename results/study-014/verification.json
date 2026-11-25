@@ -1,0 +1,13 @@
+{
+  "author": "Biswajit Jana",
+  "date": "2026-11-25",
+  "artifact_hashes_checked": 19,
+  "tighter_band_replays": 31,
+  "maximum_band_replay_difference": 2.220446049250313e-16,
+  "fourier_checks": 45,
+  "matching_checks": 24,
+  "time_integral_checks": 3,
+  "scenario_checks": 4,
+  "compact_pulse_checks": 6,
+  "conclusion": "Finite-signal approximation checks passed; no observation or full validity certificate"
+}

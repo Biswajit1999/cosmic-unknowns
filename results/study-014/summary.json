@@ -1,0 +1,43 @@
+{
+  "author": "Biswajit Jana",
+  "date": "2026-11-25",
+  "model": "Low-frequency neutral scalar matching; conditional radial energy; frozen mouth coefficients",
+  "band_cases": 303,
+  "independent_matching_cases": 24,
+  "band_audits": 45,
+  "time_audits": 3,
+  "compact_pulse_cases": 6,
+  "max_compact_pulse_difference": 3.903127820947816e-18,
+  "max_matching_difference": 7.596716764338042e-15,
+  "max_flux_error": 4.440892098500626e-16,
+  "max_band_fourier_difference": 5.551115123125783e-17,
+  "max_time_integral_difference": 8.673617379884035e-18,
+  "scenario": {
+    "q": 1000000000.0,
+    "g": 0.3,
+    "s": 0.01,
+    "x": 9.733832370541814e-06,
+    "bandwidth_z": 1000.0,
+    "ell_over_re": 632135296213.2106,
+    "binding_energy_times_re": 9.733832370541814e-05,
+    "quantum_energy_over_binding": 0.1,
+    "sigma_t_over_d": 0.018013695872181275,
+    "bandwidth_over_carrier": 0.00016251973169340687,
+    "eventual_frozen": 1.8949498523561533e-10,
+    "eventual_variable_x": 1.8949499024068255e-10,
+    "relative_eventual_change": 2.641266316771862e-08,
+    "first_frozen": 1.4363339766334866e-19,
+    "first_variable_x": 1.436334204257923e-19,
+    "relative_first_change": 1.5847598122675777e-07,
+    "collected_at_n90_variable_x": 1.7054549167204874e-10,
+    "relative_collected_change": 2.9080722718788365e-08,
+    "sigma_t_at_hwhm_over_d": 298644813981.12024,
+    "n90": 3037791593.9715304,
+    "omega_times_t90": 10382741.764452938
+  },
+  "source_hashes": {
+    "scripts/magnetic_signals.py": "3074b51fdf5f4e5db6a1e8d7519191e650f34e08d87ea84b18d98f0122ac018f",
+    "scripts/run_magnetic_signals.py": "8f3dd469d3c7fcc52bc7b06dafe2733cb818ddf66ef1ea63ee30d04e821dce18",
+    "scripts/magnetic_energy.py": "18e0eaccd2c22d7aced488a6f764a1a062b398159e8cda159fd514616aab631b"
+  }
+}

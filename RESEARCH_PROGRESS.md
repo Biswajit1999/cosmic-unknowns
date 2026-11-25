@@ -1,8 +1,19 @@
-# Research progress: 23 November 2026
+# Research progress: 25 November 2026
 
 **Author: Biswajit Jana**
 
-Latest completed work: [Study 013: magnetic support, equilibrium and long-path sensitivity](reports/015-magnetic-support-and-separation.md). Earlier completed candidate checks: [Study 011](reports/013-nuisance-confounding.md) and [Study 012](reports/014-explicit-action-and-instability.md).
+Latest completed work: [Study 014: magnetic finite signals](reports/016-magnetic-finite-signals.md), following [Study 013: magnetic support](reports/015-magnetic-support-and-separation.md). Earlier candidate checks: [Study 011](reports/013-nuisance-confounding.md) and [Study 012](reports/014-explicit-action-and-instability.md).
+
+## Finite signals and pulse-shape restriction
+
+- Reproduced the published magnetic neutral-scalar matching amplitudes with 24 independent linear systems, and calculated 303 Gaussian energy-bandwidth averages.
+- Derived the decaying delayed-pulse expansion and finite collection formula. Tested frequency integrals against 45 independent Fourier sums and time integration against Gaussian and compact-envelope autocorrelations.
+- Extended the analysis beyond Gaussian packets: any normalized envelope supported within less than one round trip has the same eventual transmission in the frozen-coefficient response. This is an effective-model support theorem, not a newly established physical-wormhole theorem or certified first result.
+- Demonstrated the incompatibility of narrow resonant preparation and localized launch within the specified hierarchy. An illustrative energy-limited case has eventual transmitted fraction 1.895e-10 and a nominal 90% collection count of 3.038 billion pulses.
+- Compared the collection interval with exterior motion. Large accumulated orbital phase requires further observer/moving-boundary modeling; it is not proof of decoherence or instability.
+- Added three calculated figures, twelve CSV datasets and a report. All 84 repository tests pass. Independent specialist review and priority assessment remain pending.
+
+The completed scope is the conditional low-frequency scalar response and its controlled numerical evaluation. Physical detection, complete source stability, ambient returns, quantum-state evolution and formation remain unresolved. The next concrete advance is a time-dependent experiment with physically justified boundaries and a probe/detector model.
 
 ## Magnetic source extension
 
@@ -13,7 +24,7 @@ Latest completed work: [Study 013: magnetic support, equilibrium and long-path s
 - Checked 723 illustrative scale combinations, showing why an energy minimum alone is insufficient for physical control. Further stress-fluctuation and interacting-matter constraints remain unimplemented.
 - Added four computed figures, ten CSV datasets, a derivation report and a version-specific reading record. All 241 roots were replayed at higher quadrature resolution, nine lengths checked in independent angle coordinates, and thirteen energy minima checked with a separate optimizer. All 74 repository tests pass.
 
-The magnetic study completes a defined reproduction and extension of the reduced energy sector. It does not complete the full wormhole research programme. The next concrete test is finite-time, finite-bandwidth scattering on this magnetic background, with energy/backreaction and control conditions applied together.
+Study 013 completes a defined reproduction and extension of the reduced energy sector. Study 014 adds the conditional finite-signal response and joint experiment constraints. Neither completes the full wormhole research programme.
 
 ## Earlier completed candidate checks
 
@@ -35,7 +46,7 @@ The broader physical-wormhole research programme remains open. Novelty is not ce
 ## Next scientifically meaningful tests
 
 1. Specify an independently justified constraint on the mass-scale product and a physical probe/detector model; assess the remaining residual with finite data and transferable calibration. Avoid treating the fixed-parameter gap as a robust detection guarantee.
-2. Study 013 starts a genuinely different magnetic quantum-support model. Next reproduce its physical probe dynamics and quantum-control conditions, then verify the full background and coupled perturbations. The unique reduced-energy minimum does not supply those checks.
+2. Study 013 starts a different magnetic quantum-support model; Study 014 reproduces its conditional neutral-scalar response. Next include ambient returns, exterior motion and quantum-state control, then verify the full background and coupled perturbations. The reduced-energy minimum and fixed-response signal do not supply those checks.
 3. Obtain an independent specialist audit of the derivations, boundary conventions and stability mapping before proposing publication. A broader priority search is required before claiming an original discovery.
 
 Near-threshold/closed-channel scattering, global optimization certification, validated inverse-beta arithmetic in the earlier confidence work, nonlinear dynamics, formation and realistic observational alternatives remain incomplete. Increasing plot density does not resolve these physical assumptions.
